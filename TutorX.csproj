@@ -69,6 +69,12 @@
     <Compile Include="TutorX_AwakeMenu.Designer.cs">
       <DependentUpon>TutorX_AwakeMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="TutorX_OperationSelectionMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorX_OperationSelectionMenu.Designer.cs">
+      <DependentUpon>TutorX_OperationSelectionMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="TutorX_ShowDatabaseMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TutorX_AddDataMenu.resx">
       <DependentUpon>TutorX_AddDataMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorX_OperationSelectionMenu.resx">
+      <DependentUpon>TutorX_OperationSelectionMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TutorX_ShowDatabaseMenu.resx">
       <DependentUpon>TutorX_ShowDatabaseMenu.cs</DependentUpon>
