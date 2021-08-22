@@ -69,6 +69,12 @@
     <Compile Include="TutorX_AwakeMenu.Designer.cs">
       <DependentUpon>TutorX_AwakeMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="TutorX_ShowDatabaseMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorX_ShowDatabaseMenu.Designer.cs">
+      <DependentUpon>TutorX_ShowDatabaseMenu.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TutorX_AddDataMenu.resx">
       <DependentUpon>TutorX_AddDataMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorX_ShowDatabaseMenu.resx">
+      <DependentUpon>TutorX_ShowDatabaseMenu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -113,6 +122,9 @@
     <None Include="Resources\TutorX_HeaderLabel.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\teachers database.png" />
+    <None Include="Resources\students database.png" />
+    <None Include="Resources\lessons database.png" />
     <None Include="Resources\TutorX_MinimizeIcon.png" />
     <None Include="Resources\TutorX_ExitIcon.png" />
     <Content Include="TutorX.accdb">

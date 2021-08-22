@@ -31,90 +31,57 @@ namespace TutorX
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutorX_ShowDatabaseMenu));
             this.Mid_Panel = new System.Windows.Forms.Panel();
-            this.Top_Margin = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Dynamic_DataGridView = new System.Windows.Forms.DataGridView();
+            this.Top_Panel = new System.Windows.Forms.Panel();
+            this.Specifier_Label = new System.Windows.Forms.Label();
             this.Minimize_Button = new System.Windows.Forms.Button();
             this.Exit_Button = new System.Windows.Forms.Button();
             this.Mid_Panel.SuspendLayout();
-            this.Top_Margin.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dynamic_DataGridView)).BeginInit();
+            this.Top_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // Mid_Panel
             // 
-            this.Mid_Panel.Controls.Add(this.dataGridView1);
-            this.Mid_Panel.Controls.Add(this.Top_Margin);
+            this.Mid_Panel.Controls.Add(this.Dynamic_DataGridView);
+            this.Mid_Panel.Controls.Add(this.Top_Panel);
             this.Mid_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Mid_Panel.Location = new System.Drawing.Point(0, 0);
             this.Mid_Panel.Name = "Mid_Panel";
             this.Mid_Panel.Size = new System.Drawing.Size(791, 462);
             this.Mid_Panel.TabIndex = 0;
             // 
-            // Top_Margin
+            // Dynamic_DataGridView
             // 
-            this.Top_Margin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.Top_Margin.Controls.Add(this.label1);
-            this.Top_Margin.Controls.Add(this.button1);
-            this.Top_Margin.Controls.Add(this.button2);
-            this.Top_Margin.Controls.Add(this.Minimize_Button);
-            this.Top_Margin.Controls.Add(this.Exit_Button);
-            this.Top_Margin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Top_Margin.Location = new System.Drawing.Point(0, 0);
-            this.Top_Margin.Name = "Top_Margin";
-            this.Top_Margin.Size = new System.Drawing.Size(791, 47);
-            this.Top_Margin.TabIndex = 9;
+            this.Dynamic_DataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.Dynamic_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dynamic_DataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Dynamic_DataGridView.Location = new System.Drawing.Point(0, 47);
+            this.Dynamic_DataGridView.Name = "Dynamic_DataGridView";
+            this.Dynamic_DataGridView.Size = new System.Drawing.Size(791, 415);
+            this.Dynamic_DataGridView.TabIndex = 10;
+            this.Dynamic_DataGridView.MouseEnter += new System.EventHandler(this.Dynamic_DataGridView_MouseEnter);
             // 
-            // dataGridView1
+            // Top_Panel
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 47);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(791, 415);
-            this.dataGridView1.TabIndex = 10;
+            this.Top_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Top_Panel.Controls.Add(this.Specifier_Label);
+            this.Top_Panel.Controls.Add(this.Minimize_Button);
+            this.Top_Panel.Controls.Add(this.Exit_Button);
+            this.Top_Panel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Top_Panel.Location = new System.Drawing.Point(0, 0);
+            this.Top_Panel.Name = "Top_Panel";
+            this.Top_Panel.Size = new System.Drawing.Size(791, 47);
+            this.Top_Panel.TabIndex = 9;
             // 
-            // label1
+            // Specifier_Label
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(358, 47);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            // 
-            // button1
-            // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::TutorX.Properties.Resources.TutorX_MinimizeIcon;
-            this.button1.Location = new System.Drawing.Point(727, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(23, 23);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::TutorX.Properties.Resources.TutorX_ExitIcon;
-            this.button2.Location = new System.Drawing.Point(756, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(23, 23);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
+            this.Specifier_Label.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Specifier_Label.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Specifier_Label.Location = new System.Drawing.Point(0, 0);
+            this.Specifier_Label.Name = "Specifier_Label";
+            this.Specifier_Label.Size = new System.Drawing.Size(589, 47);
+            this.Specifier_Label.TabIndex = 4;
             // 
             // Minimize_Button
             // 
@@ -125,11 +92,12 @@ namespace TutorX
             this.Minimize_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
             this.Minimize_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minimize_Button.Image = global::TutorX.Properties.Resources.TutorX_MinimizeIcon;
-            this.Minimize_Button.Location = new System.Drawing.Point(948, 12);
+            this.Minimize_Button.Location = new System.Drawing.Point(727, 12);
             this.Minimize_Button.Name = "Minimize_Button";
             this.Minimize_Button.Size = new System.Drawing.Size(23, 23);
             this.Minimize_Button.TabIndex = 1;
             this.Minimize_Button.UseVisualStyleBackColor = true;
+            this.Minimize_Button.Click += new System.EventHandler(this.Minimize_Button_Click);
             // 
             // Exit_Button
             // 
@@ -140,11 +108,12 @@ namespace TutorX
             this.Exit_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
             this.Exit_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Exit_Button.Image = global::TutorX.Properties.Resources.TutorX_ExitIcon;
-            this.Exit_Button.Location = new System.Drawing.Point(977, 12);
+            this.Exit_Button.Location = new System.Drawing.Point(756, 12);
             this.Exit_Button.Name = "Exit_Button";
             this.Exit_Button.Size = new System.Drawing.Size(23, 23);
             this.Exit_Button.TabIndex = 0;
             this.Exit_Button.UseVisualStyleBackColor = true;
+            this.Exit_Button.Click += new System.EventHandler(this.Exit_Button_Click);
             // 
             // TutorX_ShowDatabaseMenu
             // 
@@ -157,10 +126,9 @@ namespace TutorX
             this.Name = "TutorX_ShowDatabaseMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TutorX";
-            this.Load += new System.EventHandler(this.TutorX_ShowDatabaseMenu_Load);
             this.Mid_Panel.ResumeLayout(false);
-            this.Top_Margin.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dynamic_DataGridView)).EndInit();
+            this.Top_Panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -168,12 +136,10 @@ namespace TutorX
         #endregion
 
         private System.Windows.Forms.Panel Mid_Panel;
-        private System.Windows.Forms.Panel Top_Margin;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel Top_Panel;
         private System.Windows.Forms.Button Minimize_Button;
         private System.Windows.Forms.Button Exit_Button;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView Dynamic_DataGridView;
+        private System.Windows.Forms.Label Specifier_Label;
     }
 }

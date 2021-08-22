@@ -26,6 +26,9 @@ namespace TutorX
 
         public static ShowDatabase showDatabase;
 
+        // Form Object
+        TutorX_ShowDatabaseMenu tutorX_ShowDatabaseMenu = new TutorX_ShowDatabaseMenu();
+
         public TutorX_AddDataMenu()
         {
             InitializeComponent();
@@ -35,16 +38,19 @@ namespace TutorX
         private void ShowStudentDatabase_Button_Click(object sender, EventArgs e)
         {
             showDatabase = ShowDatabase.Student;
+            tutorX_ShowDatabaseMenu.Show();
         }
 
         private void ShowLessonDatabase_Button_Click(object sender, EventArgs e)
         {
             showDatabase = ShowDatabase.Lesson;
+            tutorX_ShowDatabaseMenu.Show();
         }
 
         private void ShowTeacherDatabase_Button_Click(object sender, EventArgs e)
         {
-            showDatabase = ShowDatabase.Teacher;    
+            showDatabase = ShowDatabase.Teacher;
+            tutorX_ShowDatabaseMenu.Show();
         }
 
         private void AddStudent_Button_Click(object sender, EventArgs e)
