@@ -131,6 +131,8 @@
     <None Include="Resources\TutorX_HeaderLabel.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\create lectures.png" />
+    <None Include="Resources\add datas.png" />
     <None Include="Resources\teachers database.png" />
     <None Include="Resources\students database.png" />
     <None Include="Resources\lessons database.png" />

@@ -64,8 +64,8 @@ namespace TutorX
             this.CreateLectures_InRightMargin = new System.Windows.Forms.Panel();
             this.CreateLectures_InLeftMargin = new System.Windows.Forms.Panel();
             this.CreateLectures_InBottomMargin = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.AddDatas_Button = new System.Windows.Forms.Button();
+            this.CreateLectures_Button = new System.Windows.Forms.Button();
             this.Mid_Panel.SuspendLayout();
             this.Top_Margin.SuspendLayout();
             this.AddDataToSystem_Panel.SuspendLayout();
@@ -130,7 +130,7 @@ namespace TutorX
             // 
             // AddDataToSystem_Panel
             // 
-            this.AddDataToSystem_Panel.Controls.Add(this.button5);
+            this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_Button);
             this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InTopMargin);
             this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InRightMargin);
             this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InLeftMargin);
@@ -157,7 +157,7 @@ namespace TutorX
             // 
             // SetLectures_Panel
             // 
-            this.SetLectures_Panel.Controls.Add(this.button6);
+            this.SetLectures_Panel.Controls.Add(this.CreateLectures_Button);
             this.SetLectures_Panel.Controls.Add(this.CreateLectures_InTopMargin);
             this.SetLectures_Panel.Controls.Add(this.CreateLectures_InRightMargin);
             this.SetLectures_Panel.Controls.Add(this.CreateLectures_InLeftMargin);
@@ -448,35 +448,43 @@ namespace TutorX
             this.CreateLectures_InBottomMargin.Size = new System.Drawing.Size(321, 10);
             this.CreateLectures_InBottomMargin.TabIndex = 17;
             // 
-            // button5
+            // AddDatas_Button
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
-            this.button5.Location = new System.Drawing.Point(12, 96);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(301, 147);
-            this.button5.TabIndex = 17;
-            this.button5.Text = "Add Datas To The Project";
-            this.button5.UseVisualStyleBackColor = false;
+            this.AddDatas_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddDatas_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddDatas_Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AddDatas_Button.FlatAppearance.BorderSize = 0;
+            this.AddDatas_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddDatas_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddDatas_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddDatas_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddDatas_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.AddDatas_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.AddDatas_Button.Location = new System.Drawing.Point(12, 96);
+            this.AddDatas_Button.Name = "AddDatas_Button";
+            this.AddDatas_Button.Size = new System.Drawing.Size(301, 147);
+            this.AddDatas_Button.TabIndex = 17;
+            this.AddDatas_Button.Text = "Add Datas To The Project";
+            this.AddDatas_Button.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // CreateLectures_Button
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
-            this.button6.Location = new System.Drawing.Point(12, 96);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(301, 147);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "Create Lectures For The Students";
-            this.button6.UseVisualStyleBackColor = false;
+            this.CreateLectures_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.CreateLectures_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CreateLectures_Button.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CreateLectures_Button.FlatAppearance.BorderSize = 0;
+            this.CreateLectures_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.CreateLectures_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.CreateLectures_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.CreateLectures_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CreateLectures_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.CreateLectures_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.CreateLectures_Button.Location = new System.Drawing.Point(12, 96);
+            this.CreateLectures_Button.Name = "CreateLectures_Button";
+            this.CreateLectures_Button.Size = new System.Drawing.Size(301, 147);
+            this.CreateLectures_Button.TabIndex = 21;
+            this.CreateLectures_Button.Text = "Create Lectures For The Students";
+            this.CreateLectures_Button.UseVisualStyleBackColor = false;
             // 
             // TutorX_OperationSelectionMenu
             // 
@@ -523,14 +531,14 @@ namespace TutorX
         private System.Windows.Forms.Label AddDatas_Label;
         private System.Windows.Forms.Panel CreateLectures_Seperator;
         private System.Windows.Forms.Panel AddDatas_Seperator;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button CreateLectures_Button;
         private System.Windows.Forms.Panel CreateLectures_InTopMargin;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel CreateLectures_InRightMargin;
         private System.Windows.Forms.Panel CreateLectures_InLeftMargin;
         private System.Windows.Forms.Panel CreateLectures_InBottomMargin;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button AddDatas_Button;
         private System.Windows.Forms.Panel AddDatas_InTopMargin;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
