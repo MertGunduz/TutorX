@@ -17,14 +17,14 @@ namespace TutorX
         OleDbConnection oleDbConnection = new OleDbConnection(Database.databaseClass);
 
         // Picked Menu
-        enum ShowDatabase
+        public enum ShowDatabase
         {
             Student,
             Lesson,
             Teacher
         }
 
-        ShowDatabase showDatabase;
+        public static ShowDatabase showDatabase;
 
         public TutorX_AddDataMenu()
         {

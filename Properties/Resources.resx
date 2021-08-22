@@ -127,8 +127,17 @@
   <data name="Add_teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Add teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lessons_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lessons database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Set_lectures" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Set lectures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="students_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\students database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teachers_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teachers database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TutorX_AddIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TutorX_AddIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
