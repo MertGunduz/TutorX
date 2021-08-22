@@ -1,0 +1,9 @@
+C:\Users\u\source\repos\TutorX\bin\Debug\TutorX.exe.config
+C:\Users\u\source\repos\TutorX\bin\Debug\TutorX.exe
+C:\Users\u\source\repos\TutorX\bin\Debug\TutorX.pdb
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.csproj.AssemblyReference.cache
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.Properties.Resources.resources
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.csproj.GenerateResource.cache
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.csproj.CoreCompileInputs.cache
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.exe
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.pdb
