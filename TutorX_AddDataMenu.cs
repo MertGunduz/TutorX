@@ -31,10 +31,6 @@ namespace TutorX
             InitializeComponent();
         }
 
-        private void TutorX_MainMenu_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void ShowStudentDatabase_Button_Click(object sender, EventArgs e)
         {
@@ -94,6 +90,16 @@ namespace TutorX
             addTeacherCommand.Parameters.AddWithValue("@p4", TeacherField_TextBox.Text);
             addTeacherCommand.ExecuteNonQuery();
             oleDbConnection.Close();
+        }
+
+        private void Minimize_Button_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void Exit_Button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

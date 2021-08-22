@@ -113,6 +113,8 @@
     <None Include="Resources\TutorX_HeaderLabel.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\TutorX_MinimizeIcon.png" />
+    <None Include="Resources\TutorX_ExitIcon.png" />
     <Content Include="TutorX.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
