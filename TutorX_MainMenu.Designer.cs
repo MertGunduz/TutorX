@@ -40,24 +40,24 @@ namespace TutorX
             this.SetLectures_Panel = new System.Windows.Forms.Panel();
             this.Margin_RightCenter = new System.Windows.Forms.Panel();
             this.AddTeacherPanel = new System.Windows.Forms.Panel();
-            this.Left_Border = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Right_Border = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.Top_Border = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.Bottom_Border = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.AddStudent_LeftBorder = new System.Windows.Forms.Panel();
+            this.SetLectures_LeftBorder = new System.Windows.Forms.Panel();
+            this.AddTeacher_LeftBorder = new System.Windows.Forms.Panel();
+            this.AddStudent_RightBorder = new System.Windows.Forms.Panel();
+            this.SetLectures_RightBorder = new System.Windows.Forms.Panel();
+            this.AddTeacher_RightBorder = new System.Windows.Forms.Panel();
+            this.AddStudent_TopBorder = new System.Windows.Forms.Panel();
+            this.SetLectures_TopPanel = new System.Windows.Forms.Panel();
+            this.AddTeacher_TopBorder = new System.Windows.Forms.Panel();
+            this.AddStudent_BottomBorder = new System.Windows.Forms.Panel();
+            this.SetLectures_BottomPanel = new System.Windows.Forms.Panel();
+            this.AddTeacher_BottomBorder = new System.Windows.Forms.Panel();
             this.AddStudent_Label = new System.Windows.Forms.Label();
             this.SetLectures_Label = new System.Windows.Forms.Label();
             this.AddTeacher_Label = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
+            this.AddStudent_Seperator = new System.Windows.Forms.Panel();
+            this.SetLectures_Seperator = new System.Windows.Forms.Panel();
+            this.AddTeacher_LabelSeperator = new System.Windows.Forms.Panel();
             this.AddStudent_ContainerPanel = new System.Windows.Forms.Panel();
             this.SetLectures_ContainerPanel = new System.Windows.Forms.Panel();
             this.AddTeacher_ContainerPanel = new System.Windows.Forms.Panel();
@@ -126,12 +126,12 @@ namespace TutorX
             // AddStudent_Panel
             // 
             this.AddStudent_Panel.Controls.Add(this.AddStudent_ContainerPanel);
-            this.AddStudent_Panel.Controls.Add(this.panel9);
+            this.AddStudent_Panel.Controls.Add(this.AddStudent_Seperator);
             this.AddStudent_Panel.Controls.Add(this.AddStudent_Label);
-            this.AddStudent_Panel.Controls.Add(this.Bottom_Border);
-            this.AddStudent_Panel.Controls.Add(this.Top_Border);
-            this.AddStudent_Panel.Controls.Add(this.Right_Border);
-            this.AddStudent_Panel.Controls.Add(this.Left_Border);
+            this.AddStudent_Panel.Controls.Add(this.AddStudent_BottomBorder);
+            this.AddStudent_Panel.Controls.Add(this.AddStudent_TopBorder);
+            this.AddStudent_Panel.Controls.Add(this.AddStudent_RightBorder);
+            this.AddStudent_Panel.Controls.Add(this.AddStudent_LeftBorder);
             this.AddStudent_Panel.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddStudent_Panel.Location = new System.Drawing.Point(10, 10);
             this.AddStudent_Panel.Name = "AddStudent_Panel";
@@ -149,12 +149,12 @@ namespace TutorX
             // SetLectures_Panel
             // 
             this.SetLectures_Panel.Controls.Add(this.SetLectures_ContainerPanel);
-            this.SetLectures_Panel.Controls.Add(this.panel10);
+            this.SetLectures_Panel.Controls.Add(this.SetLectures_Seperator);
             this.SetLectures_Panel.Controls.Add(this.SetLectures_Label);
-            this.SetLectures_Panel.Controls.Add(this.panel7);
-            this.SetLectures_Panel.Controls.Add(this.panel5);
-            this.SetLectures_Panel.Controls.Add(this.panel3);
-            this.SetLectures_Panel.Controls.Add(this.panel1);
+            this.SetLectures_Panel.Controls.Add(this.SetLectures_BottomPanel);
+            this.SetLectures_Panel.Controls.Add(this.SetLectures_TopPanel);
+            this.SetLectures_Panel.Controls.Add(this.SetLectures_RightBorder);
+            this.SetLectures_Panel.Controls.Add(this.SetLectures_LeftBorder);
             this.SetLectures_Panel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SetLectures_Panel.Location = new System.Drawing.Point(351, 10);
             this.SetLectures_Panel.Name = "SetLectures_Panel";
@@ -172,125 +172,125 @@ namespace TutorX
             // AddTeacherPanel
             // 
             this.AddTeacherPanel.Controls.Add(this.AddTeacher_ContainerPanel);
-            this.AddTeacherPanel.Controls.Add(this.panel11);
+            this.AddTeacherPanel.Controls.Add(this.AddTeacher_LabelSeperator);
             this.AddTeacherPanel.Controls.Add(this.AddTeacher_Label);
-            this.AddTeacherPanel.Controls.Add(this.panel8);
-            this.AddTeacherPanel.Controls.Add(this.panel6);
-            this.AddTeacherPanel.Controls.Add(this.panel4);
-            this.AddTeacherPanel.Controls.Add(this.panel2);
+            this.AddTeacherPanel.Controls.Add(this.AddTeacher_BottomBorder);
+            this.AddTeacherPanel.Controls.Add(this.AddTeacher_TopBorder);
+            this.AddTeacherPanel.Controls.Add(this.AddTeacher_RightBorder);
+            this.AddTeacherPanel.Controls.Add(this.AddTeacher_LeftBorder);
             this.AddTeacherPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddTeacherPanel.Location = new System.Drawing.Point(692, 10);
             this.AddTeacherPanel.Name = "AddTeacherPanel";
             this.AddTeacherPanel.Size = new System.Drawing.Size(331, 535);
             this.AddTeacherPanel.TabIndex = 13;
             // 
-            // Left_Border
+            // AddStudent_LeftBorder
             // 
-            this.Left_Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.Left_Border.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Left_Border.Location = new System.Drawing.Point(0, 0);
-            this.Left_Border.Name = "Left_Border";
-            this.Left_Border.Size = new System.Drawing.Size(2, 535);
-            this.Left_Border.TabIndex = 2;
+            this.AddStudent_LeftBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddStudent_LeftBorder.Dock = System.Windows.Forms.DockStyle.Left;
+            this.AddStudent_LeftBorder.Location = new System.Drawing.Point(0, 0);
+            this.AddStudent_LeftBorder.Name = "AddStudent_LeftBorder";
+            this.AddStudent_LeftBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddStudent_LeftBorder.TabIndex = 2;
             // 
-            // panel1
+            // SetLectures_LeftBorder
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2, 535);
-            this.panel1.TabIndex = 2;
+            this.SetLectures_LeftBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.SetLectures_LeftBorder.Dock = System.Windows.Forms.DockStyle.Left;
+            this.SetLectures_LeftBorder.Location = new System.Drawing.Point(0, 0);
+            this.SetLectures_LeftBorder.Name = "SetLectures_LeftBorder";
+            this.SetLectures_LeftBorder.Size = new System.Drawing.Size(2, 535);
+            this.SetLectures_LeftBorder.TabIndex = 2;
             // 
-            // panel2
+            // AddTeacher_LeftBorder
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2, 535);
-            this.panel2.TabIndex = 2;
+            this.AddTeacher_LeftBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddTeacher_LeftBorder.Dock = System.Windows.Forms.DockStyle.Left;
+            this.AddTeacher_LeftBorder.Location = new System.Drawing.Point(0, 0);
+            this.AddTeacher_LeftBorder.Name = "AddTeacher_LeftBorder";
+            this.AddTeacher_LeftBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddTeacher_LeftBorder.TabIndex = 2;
             // 
-            // Right_Border
+            // AddStudent_RightBorder
             // 
-            this.Right_Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.Right_Border.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Right_Border.Location = new System.Drawing.Point(329, 0);
-            this.Right_Border.Name = "Right_Border";
-            this.Right_Border.Size = new System.Drawing.Size(2, 535);
-            this.Right_Border.TabIndex = 3;
+            this.AddStudent_RightBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddStudent_RightBorder.Dock = System.Windows.Forms.DockStyle.Right;
+            this.AddStudent_RightBorder.Location = new System.Drawing.Point(329, 0);
+            this.AddStudent_RightBorder.Name = "AddStudent_RightBorder";
+            this.AddStudent_RightBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddStudent_RightBorder.TabIndex = 3;
             // 
-            // panel3
+            // SetLectures_RightBorder
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(329, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(2, 535);
-            this.panel3.TabIndex = 3;
+            this.SetLectures_RightBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.SetLectures_RightBorder.Dock = System.Windows.Forms.DockStyle.Right;
+            this.SetLectures_RightBorder.Location = new System.Drawing.Point(329, 0);
+            this.SetLectures_RightBorder.Name = "SetLectures_RightBorder";
+            this.SetLectures_RightBorder.Size = new System.Drawing.Size(2, 535);
+            this.SetLectures_RightBorder.TabIndex = 3;
             // 
-            // panel4
+            // AddTeacher_RightBorder
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(329, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(2, 535);
-            this.panel4.TabIndex = 3;
+            this.AddTeacher_RightBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddTeacher_RightBorder.Dock = System.Windows.Forms.DockStyle.Right;
+            this.AddTeacher_RightBorder.Location = new System.Drawing.Point(329, 0);
+            this.AddTeacher_RightBorder.Name = "AddTeacher_RightBorder";
+            this.AddTeacher_RightBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddTeacher_RightBorder.TabIndex = 3;
             // 
-            // Top_Border
+            // AddStudent_TopBorder
             // 
-            this.Top_Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.Top_Border.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Top_Border.Location = new System.Drawing.Point(2, 0);
-            this.Top_Border.Name = "Top_Border";
-            this.Top_Border.Size = new System.Drawing.Size(327, 2);
-            this.Top_Border.TabIndex = 4;
+            this.AddStudent_TopBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddStudent_TopBorder.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AddStudent_TopBorder.Location = new System.Drawing.Point(2, 0);
+            this.AddStudent_TopBorder.Name = "AddStudent_TopBorder";
+            this.AddStudent_TopBorder.Size = new System.Drawing.Size(327, 2);
+            this.AddStudent_TopBorder.TabIndex = 4;
             // 
-            // panel5
+            // SetLectures_TopPanel
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(2, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(327, 2);
-            this.panel5.TabIndex = 4;
+            this.SetLectures_TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.SetLectures_TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SetLectures_TopPanel.Location = new System.Drawing.Point(2, 0);
+            this.SetLectures_TopPanel.Name = "SetLectures_TopPanel";
+            this.SetLectures_TopPanel.Size = new System.Drawing.Size(327, 2);
+            this.SetLectures_TopPanel.TabIndex = 4;
             // 
-            // panel6
+            // AddTeacher_TopBorder
             // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(2, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(327, 2);
-            this.panel6.TabIndex = 4;
+            this.AddTeacher_TopBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddTeacher_TopBorder.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AddTeacher_TopBorder.Location = new System.Drawing.Point(2, 0);
+            this.AddTeacher_TopBorder.Name = "AddTeacher_TopBorder";
+            this.AddTeacher_TopBorder.Size = new System.Drawing.Size(327, 2);
+            this.AddTeacher_TopBorder.TabIndex = 4;
             // 
-            // Bottom_Border
+            // AddStudent_BottomBorder
             // 
-            this.Bottom_Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.Bottom_Border.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Bottom_Border.Location = new System.Drawing.Point(2, 533);
-            this.Bottom_Border.Name = "Bottom_Border";
-            this.Bottom_Border.Size = new System.Drawing.Size(327, 2);
-            this.Bottom_Border.TabIndex = 5;
+            this.AddStudent_BottomBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddStudent_BottomBorder.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AddStudent_BottomBorder.Location = new System.Drawing.Point(2, 533);
+            this.AddStudent_BottomBorder.Name = "AddStudent_BottomBorder";
+            this.AddStudent_BottomBorder.Size = new System.Drawing.Size(327, 2);
+            this.AddStudent_BottomBorder.TabIndex = 5;
             // 
-            // panel7
+            // SetLectures_BottomPanel
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel7.Location = new System.Drawing.Point(2, 533);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(327, 2);
-            this.panel7.TabIndex = 5;
+            this.SetLectures_BottomPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.SetLectures_BottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.SetLectures_BottomPanel.Location = new System.Drawing.Point(2, 533);
+            this.SetLectures_BottomPanel.Name = "SetLectures_BottomPanel";
+            this.SetLectures_BottomPanel.Size = new System.Drawing.Size(327, 2);
+            this.SetLectures_BottomPanel.TabIndex = 5;
             // 
-            // panel8
+            // AddTeacher_BottomBorder
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(2, 533);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(327, 2);
-            this.panel8.TabIndex = 5;
+            this.AddTeacher_BottomBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddTeacher_BottomBorder.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AddTeacher_BottomBorder.Location = new System.Drawing.Point(2, 533);
+            this.AddTeacher_BottomBorder.Name = "AddTeacher_BottomBorder";
+            this.AddTeacher_BottomBorder.Size = new System.Drawing.Size(327, 2);
+            this.AddTeacher_BottomBorder.TabIndex = 5;
             // 
             // AddStudent_Label
             // 
@@ -319,32 +319,32 @@ namespace TutorX
             this.AddTeacher_Label.Size = new System.Drawing.Size(327, 82);
             this.AddTeacher_Label.TabIndex = 7;
             // 
-            // panel9
+            // AddStudent_Seperator
             // 
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(2, 84);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(327, 2);
-            this.panel9.TabIndex = 7;
+            this.AddStudent_Seperator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddStudent_Seperator.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AddStudent_Seperator.Location = new System.Drawing.Point(2, 84);
+            this.AddStudent_Seperator.Name = "AddStudent_Seperator";
+            this.AddStudent_Seperator.Size = new System.Drawing.Size(327, 2);
+            this.AddStudent_Seperator.TabIndex = 7;
             // 
-            // panel10
+            // SetLectures_Seperator
             // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(2, 84);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(327, 2);
-            this.panel10.TabIndex = 8;
+            this.SetLectures_Seperator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.SetLectures_Seperator.Dock = System.Windows.Forms.DockStyle.Top;
+            this.SetLectures_Seperator.Location = new System.Drawing.Point(2, 84);
+            this.SetLectures_Seperator.Name = "SetLectures_Seperator";
+            this.SetLectures_Seperator.Size = new System.Drawing.Size(327, 2);
+            this.SetLectures_Seperator.TabIndex = 8;
             // 
-            // panel11
+            // AddTeacher_LabelSeperator
             // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(2, 84);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(327, 2);
-            this.panel11.TabIndex = 8;
+            this.AddTeacher_LabelSeperator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddTeacher_LabelSeperator.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AddTeacher_LabelSeperator.Location = new System.Drawing.Point(2, 84);
+            this.AddTeacher_LabelSeperator.Name = "AddTeacher_LabelSeperator";
+            this.AddTeacher_LabelSeperator.Size = new System.Drawing.Size(327, 2);
+            this.AddTeacher_LabelSeperator.TabIndex = 8;
             // 
             // AddStudent_ContainerPanel
             // 
@@ -432,24 +432,24 @@ namespace TutorX
         private System.Windows.Forms.Panel SetLectures_Panel;
         private System.Windows.Forms.Panel Margin_LeftCenter;
         private System.Windows.Forms.Panel AddStudent_Panel;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel Left_Border;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel Right_Border;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel Top_Border;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel Bottom_Border;
+        private System.Windows.Forms.Panel AddTeacher_LeftBorder;
+        private System.Windows.Forms.Panel SetLectures_LeftBorder;
+        private System.Windows.Forms.Panel AddStudent_LeftBorder;
+        private System.Windows.Forms.Panel AddTeacher_RightBorder;
+        private System.Windows.Forms.Panel SetLectures_RightBorder;
+        private System.Windows.Forms.Panel AddStudent_RightBorder;
+        private System.Windows.Forms.Panel AddTeacher_TopBorder;
+        private System.Windows.Forms.Panel SetLectures_TopPanel;
+        private System.Windows.Forms.Panel AddStudent_TopBorder;
+        private System.Windows.Forms.Panel AddTeacher_BottomBorder;
+        private System.Windows.Forms.Panel SetLectures_BottomPanel;
+        private System.Windows.Forms.Panel AddStudent_BottomBorder;
         private System.Windows.Forms.Label AddStudent_Label;
         private System.Windows.Forms.Label AddTeacher_Label;
         private System.Windows.Forms.Label SetLectures_Label;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel AddTeacher_LabelSeperator;
+        private System.Windows.Forms.Panel SetLectures_Seperator;
+        private System.Windows.Forms.Panel AddStudent_Seperator;
         private System.Windows.Forms.Panel AddTeacher_ContainerPanel;
         private System.Windows.Forms.Panel AddTeacher_ContainerPanelExpand;
         private System.Windows.Forms.Panel SetLectures_ContainerPanel;
