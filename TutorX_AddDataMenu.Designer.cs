@@ -193,6 +193,7 @@ namespace TutorX
             this.AddTeacher_Button.Text = "Add Teacher";
             this.AddTeacher_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddTeacher_Button.UseVisualStyleBackColor = false;
+            this.AddTeacher_Button.Click += new System.EventHandler(this.AddTeacher_Button_Click);
             // 
             // TeacherBirth_TextBox
             // 
@@ -351,6 +352,7 @@ namespace TutorX
             this.AddLesson_Button.Text = "Add Lesson";
             this.AddLesson_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddLesson_Button.UseVisualStyleBackColor = false;
+            this.AddLesson_Button.Click += new System.EventHandler(this.AddLesson_Button_Click);
             // 
             // LessonName_TextBox
             // 
