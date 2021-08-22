@@ -489,6 +489,7 @@ namespace TutorX
             this.AddStudent_Button.Text = "Add Student";
             this.AddStudent_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddStudent_Button.UseVisualStyleBackColor = false;
+            this.AddStudent_Button.Click += new System.EventHandler(this.AddStudent_Button_Click);
             // 
             // StudentBirth_TextBox
             // 

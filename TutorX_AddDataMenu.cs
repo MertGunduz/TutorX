@@ -36,5 +36,10 @@ namespace TutorX
         {
 
         }
+
+        private void AddStudent_Button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
