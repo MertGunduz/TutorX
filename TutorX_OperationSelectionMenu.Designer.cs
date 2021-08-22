@@ -52,10 +52,26 @@ namespace TutorX
             this.CreateLectures_Label = new System.Windows.Forms.Label();
             this.AddDatas_Seperator = new System.Windows.Forms.Panel();
             this.CreateLectures_Seperator = new System.Windows.Forms.Panel();
+            this.AddDatas_InBottomMargin = new System.Windows.Forms.Panel();
+            this.AddDatas_InLeftMargin = new System.Windows.Forms.Panel();
+            this.AddDatas_InRightMargin = new System.Windows.Forms.Panel();
+            this.AddDatas_InTopMargin = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.CreateLectures_InTopMargin = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.CreateLectures_InRightMargin = new System.Windows.Forms.Panel();
+            this.CreateLectures_InLeftMargin = new System.Windows.Forms.Panel();
+            this.CreateLectures_InBottomMargin = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.Mid_Panel.SuspendLayout();
             this.Top_Margin.SuspendLayout();
             this.AddDataToSystem_Panel.SuspendLayout();
             this.SetLectures_Panel.SuspendLayout();
+            this.AddDatas_InTopMargin.SuspendLayout();
+            this.CreateLectures_InTopMargin.SuspendLayout();
             this.SuspendLayout();
             // 
             // Mid_Panel
@@ -114,6 +130,11 @@ namespace TutorX
             // 
             // AddDataToSystem_Panel
             // 
+            this.AddDataToSystem_Panel.Controls.Add(this.button5);
+            this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InTopMargin);
+            this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InRightMargin);
+            this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InLeftMargin);
+            this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_InBottomMargin);
             this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_Seperator);
             this.AddDataToSystem_Panel.Controls.Add(this.AddDatas_Label);
             this.AddDataToSystem_Panel.Controls.Add(this.AddDataToSystem_BottomBorder);
@@ -136,6 +157,11 @@ namespace TutorX
             // 
             // SetLectures_Panel
             // 
+            this.SetLectures_Panel.Controls.Add(this.button6);
+            this.SetLectures_Panel.Controls.Add(this.CreateLectures_InTopMargin);
+            this.SetLectures_Panel.Controls.Add(this.CreateLectures_InRightMargin);
+            this.SetLectures_Panel.Controls.Add(this.CreateLectures_InLeftMargin);
+            this.SetLectures_Panel.Controls.Add(this.CreateLectures_InBottomMargin);
             this.SetLectures_Panel.Controls.Add(this.CreateLectures_Seperator);
             this.SetLectures_Panel.Controls.Add(this.CreateLectures_Label);
             this.SetLectures_Panel.Controls.Add(this.SetLectures_BottomBorder);
@@ -286,6 +312,168 @@ namespace TutorX
             this.CreateLectures_Seperator.Size = new System.Drawing.Size(321, 2);
             this.CreateLectures_Seperator.TabIndex = 9;
             // 
+            // AddDatas_InBottomMargin
+            // 
+            this.AddDatas_InBottomMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.AddDatas_InBottomMargin.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AddDatas_InBottomMargin.Location = new System.Drawing.Point(2, 243);
+            this.AddDatas_InBottomMargin.Name = "AddDatas_InBottomMargin";
+            this.AddDatas_InBottomMargin.Size = new System.Drawing.Size(321, 10);
+            this.AddDatas_InBottomMargin.TabIndex = 13;
+            // 
+            // AddDatas_InLeftMargin
+            // 
+            this.AddDatas_InLeftMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.AddDatas_InLeftMargin.Dock = System.Windows.Forms.DockStyle.Left;
+            this.AddDatas_InLeftMargin.Location = new System.Drawing.Point(2, 86);
+            this.AddDatas_InLeftMargin.Name = "AddDatas_InLeftMargin";
+            this.AddDatas_InLeftMargin.Size = new System.Drawing.Size(10, 157);
+            this.AddDatas_InLeftMargin.TabIndex = 14;
+            // 
+            // AddDatas_InRightMargin
+            // 
+            this.AddDatas_InRightMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.AddDatas_InRightMargin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.AddDatas_InRightMargin.Location = new System.Drawing.Point(313, 86);
+            this.AddDatas_InRightMargin.Name = "AddDatas_InRightMargin";
+            this.AddDatas_InRightMargin.Size = new System.Drawing.Size(10, 157);
+            this.AddDatas_InRightMargin.TabIndex = 15;
+            // 
+            // AddDatas_InTopMargin
+            // 
+            this.AddDatas_InTopMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.AddDatas_InTopMargin.Controls.Add(this.button1);
+            this.AddDatas_InTopMargin.Controls.Add(this.button2);
+            this.AddDatas_InTopMargin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AddDatas_InTopMargin.Location = new System.Drawing.Point(12, 86);
+            this.AddDatas_InTopMargin.Name = "AddDatas_InTopMargin";
+            this.AddDatas_InTopMargin.Size = new System.Drawing.Size(301, 10);
+            this.AddDatas_InTopMargin.TabIndex = 16;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::TutorX.Properties.Resources.TutorX_MinimizeIcon;
+            this.button1.Location = new System.Drawing.Point(603, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(23, 23);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::TutorX.Properties.Resources.TutorX_ExitIcon;
+            this.button2.Location = new System.Drawing.Point(632, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(23, 23);
+            this.button2.TabIndex = 0;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // CreateLectures_InTopMargin
+            // 
+            this.CreateLectures_InTopMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.CreateLectures_InTopMargin.Controls.Add(this.button3);
+            this.CreateLectures_InTopMargin.Controls.Add(this.button4);
+            this.CreateLectures_InTopMargin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.CreateLectures_InTopMargin.Location = new System.Drawing.Point(12, 86);
+            this.CreateLectures_InTopMargin.Name = "CreateLectures_InTopMargin";
+            this.CreateLectures_InTopMargin.Size = new System.Drawing.Size(301, 10);
+            this.CreateLectures_InTopMargin.TabIndex = 20;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = global::TutorX.Properties.Resources.TutorX_MinimizeIcon;
+            this.button3.Location = new System.Drawing.Point(603, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(23, 23);
+            this.button3.TabIndex = 1;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Image = global::TutorX.Properties.Resources.TutorX_ExitIcon;
+            this.button4.Location = new System.Drawing.Point(632, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(23, 23);
+            this.button4.TabIndex = 0;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // CreateLectures_InRightMargin
+            // 
+            this.CreateLectures_InRightMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.CreateLectures_InRightMargin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.CreateLectures_InRightMargin.Location = new System.Drawing.Point(313, 86);
+            this.CreateLectures_InRightMargin.Name = "CreateLectures_InRightMargin";
+            this.CreateLectures_InRightMargin.Size = new System.Drawing.Size(10, 157);
+            this.CreateLectures_InRightMargin.TabIndex = 19;
+            // 
+            // CreateLectures_InLeftMargin
+            // 
+            this.CreateLectures_InLeftMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.CreateLectures_InLeftMargin.Dock = System.Windows.Forms.DockStyle.Left;
+            this.CreateLectures_InLeftMargin.Location = new System.Drawing.Point(2, 86);
+            this.CreateLectures_InLeftMargin.Name = "CreateLectures_InLeftMargin";
+            this.CreateLectures_InLeftMargin.Size = new System.Drawing.Size(10, 157);
+            this.CreateLectures_InLeftMargin.TabIndex = 18;
+            // 
+            // CreateLectures_InBottomMargin
+            // 
+            this.CreateLectures_InBottomMargin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.CreateLectures_InBottomMargin.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.CreateLectures_InBottomMargin.Location = new System.Drawing.Point(2, 243);
+            this.CreateLectures_InBottomMargin.Name = "CreateLectures_InBottomMargin";
+            this.CreateLectures_InBottomMargin.Size = new System.Drawing.Size(321, 10);
+            this.CreateLectures_InBottomMargin.TabIndex = 17;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(12, 96);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(301, 147);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(12, 96);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(301, 147);
+            this.button6.TabIndex = 21;
+            this.button6.Text = "button6";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
             // TutorX_OperationSelectionMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -301,6 +489,8 @@ namespace TutorX
             this.Top_Margin.ResumeLayout(false);
             this.AddDataToSystem_Panel.ResumeLayout(false);
             this.SetLectures_Panel.ResumeLayout(false);
+            this.AddDatas_InTopMargin.ResumeLayout(false);
+            this.CreateLectures_InTopMargin.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -329,5 +519,19 @@ namespace TutorX
         private System.Windows.Forms.Label AddDatas_Label;
         private System.Windows.Forms.Panel CreateLectures_Seperator;
         private System.Windows.Forms.Panel AddDatas_Seperator;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel CreateLectures_InTopMargin;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel CreateLectures_InRightMargin;
+        private System.Windows.Forms.Panel CreateLectures_InLeftMargin;
+        private System.Windows.Forms.Panel CreateLectures_InBottomMargin;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel AddDatas_InTopMargin;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel AddDatas_InRightMargin;
+        private System.Windows.Forms.Panel AddDatas_InLeftMargin;
+        private System.Windows.Forms.Panel AddDatas_InBottomMargin;
     }
 }
