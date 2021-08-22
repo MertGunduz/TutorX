@@ -67,11 +67,24 @@ namespace TutorX
             this.AddLessons_Label = new System.Windows.Forms.Label();
             this.AddStudent_Label = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.Mid_Panel.SuspendLayout();
             this.AddTeacherPanel.SuspendLayout();
             this.AddTeacher_ContainerPanel.SuspendLayout();
+            this.AddTeacher_ContainerPanelExpand.SuspendLayout();
             this.AddLessons_Panel.SuspendLayout();
             this.AddLessons_ContainerPanel.SuspendLayout();
+            this.AddLessons_ContainerPanelExpand.SuspendLayout();
             this.AddStudent_Panel.SuspendLayout();
             this.AddStudent_ContainerPanel.SuspendLayout();
             this.AddStudent_ContainerPanelExpand.SuspendLayout();
@@ -92,7 +105,7 @@ namespace TutorX
             this.Mid_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Mid_Panel.Location = new System.Drawing.Point(0, 0);
             this.Mid_Panel.Name = "Mid_Panel";
-            this.Mid_Panel.Size = new System.Drawing.Size(1034, 555);
+            this.Mid_Panel.Size = new System.Drawing.Size(1034, 443);
             this.Mid_Panel.TabIndex = 0;
             // 
             // AddTeacherPanel
@@ -107,7 +120,7 @@ namespace TutorX
             this.AddTeacherPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddTeacherPanel.Location = new System.Drawing.Point(692, 10);
             this.AddTeacherPanel.Name = "AddTeacherPanel";
-            this.AddTeacherPanel.Size = new System.Drawing.Size(331, 535);
+            this.AddTeacherPanel.Size = new System.Drawing.Size(331, 423);
             this.AddTeacherPanel.TabIndex = 13;
             // 
             // AddTeacher_ContainerPanel
@@ -116,15 +129,21 @@ namespace TutorX
             this.AddTeacher_ContainerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddTeacher_ContainerPanel.Location = new System.Drawing.Point(2, 86);
             this.AddTeacher_ContainerPanel.Name = "AddTeacher_ContainerPanel";
-            this.AddTeacher_ContainerPanel.Size = new System.Drawing.Size(327, 447);
+            this.AddTeacher_ContainerPanel.Size = new System.Drawing.Size(327, 335);
             this.AddTeacher_ContainerPanel.TabIndex = 9;
             // 
             // AddTeacher_ContainerPanelExpand
             // 
+            this.AddTeacher_ContainerPanelExpand.Controls.Add(this.textBox8);
+            this.AddTeacher_ContainerPanelExpand.Controls.Add(this.button5);
+            this.AddTeacher_ContainerPanelExpand.Controls.Add(this.button6);
+            this.AddTeacher_ContainerPanelExpand.Controls.Add(this.textBox4);
+            this.AddTeacher_ContainerPanelExpand.Controls.Add(this.textBox5);
+            this.AddTeacher_ContainerPanelExpand.Controls.Add(this.textBox7);
             this.AddTeacher_ContainerPanelExpand.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddTeacher_ContainerPanelExpand.Location = new System.Drawing.Point(0, 0);
             this.AddTeacher_ContainerPanelExpand.Name = "AddTeacher_ContainerPanelExpand";
-            this.AddTeacher_ContainerPanelExpand.Size = new System.Drawing.Size(327, 447);
+            this.AddTeacher_ContainerPanelExpand.Size = new System.Drawing.Size(327, 335);
             this.AddTeacher_ContainerPanelExpand.TabIndex = 9;
             // 
             // AddTeacher_LabelSeperator
@@ -140,7 +159,7 @@ namespace TutorX
             // 
             this.AddTeacher_BottomBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.AddTeacher_BottomBorder.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.AddTeacher_BottomBorder.Location = new System.Drawing.Point(2, 533);
+            this.AddTeacher_BottomBorder.Location = new System.Drawing.Point(2, 421);
             this.AddTeacher_BottomBorder.Name = "AddTeacher_BottomBorder";
             this.AddTeacher_BottomBorder.Size = new System.Drawing.Size(327, 2);
             this.AddTeacher_BottomBorder.TabIndex = 5;
@@ -160,7 +179,7 @@ namespace TutorX
             this.AddTeacher_RightBorder.Dock = System.Windows.Forms.DockStyle.Right;
             this.AddTeacher_RightBorder.Location = new System.Drawing.Point(329, 0);
             this.AddTeacher_RightBorder.Name = "AddTeacher_RightBorder";
-            this.AddTeacher_RightBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddTeacher_RightBorder.Size = new System.Drawing.Size(2, 423);
             this.AddTeacher_RightBorder.TabIndex = 3;
             // 
             // AddTeacher_LeftBorder
@@ -169,7 +188,7 @@ namespace TutorX
             this.AddTeacher_LeftBorder.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddTeacher_LeftBorder.Location = new System.Drawing.Point(0, 0);
             this.AddTeacher_LeftBorder.Name = "AddTeacher_LeftBorder";
-            this.AddTeacher_LeftBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddTeacher_LeftBorder.Size = new System.Drawing.Size(2, 423);
             this.AddTeacher_LeftBorder.TabIndex = 2;
             // 
             // Margin_RightCenter
@@ -177,7 +196,7 @@ namespace TutorX
             this.Margin_RightCenter.Dock = System.Windows.Forms.DockStyle.Left;
             this.Margin_RightCenter.Location = new System.Drawing.Point(682, 10);
             this.Margin_RightCenter.Name = "Margin_RightCenter";
-            this.Margin_RightCenter.Size = new System.Drawing.Size(10, 535);
+            this.Margin_RightCenter.Size = new System.Drawing.Size(10, 423);
             this.Margin_RightCenter.TabIndex = 12;
             // 
             // AddLessons_Panel
@@ -192,7 +211,7 @@ namespace TutorX
             this.AddLessons_Panel.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddLessons_Panel.Location = new System.Drawing.Point(351, 10);
             this.AddLessons_Panel.Name = "AddLessons_Panel";
-            this.AddLessons_Panel.Size = new System.Drawing.Size(331, 535);
+            this.AddLessons_Panel.Size = new System.Drawing.Size(331, 423);
             this.AddLessons_Panel.TabIndex = 11;
             // 
             // AddLessons_ContainerPanel
@@ -201,15 +220,18 @@ namespace TutorX
             this.AddLessons_ContainerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddLessons_ContainerPanel.Location = new System.Drawing.Point(2, 86);
             this.AddLessons_ContainerPanel.Name = "AddLessons_ContainerPanel";
-            this.AddLessons_ContainerPanel.Size = new System.Drawing.Size(327, 447);
+            this.AddLessons_ContainerPanel.Size = new System.Drawing.Size(327, 335);
             this.AddLessons_ContainerPanel.TabIndex = 9;
             // 
             // AddLessons_ContainerPanelExpand
             // 
+            this.AddLessons_ContainerPanelExpand.Controls.Add(this.button3);
+            this.AddLessons_ContainerPanelExpand.Controls.Add(this.button4);
+            this.AddLessons_ContainerPanelExpand.Controls.Add(this.textBox6);
             this.AddLessons_ContainerPanelExpand.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddLessons_ContainerPanelExpand.Location = new System.Drawing.Point(0, 0);
             this.AddLessons_ContainerPanelExpand.Name = "AddLessons_ContainerPanelExpand";
-            this.AddLessons_ContainerPanelExpand.Size = new System.Drawing.Size(327, 447);
+            this.AddLessons_ContainerPanelExpand.Size = new System.Drawing.Size(327, 335);
             this.AddLessons_ContainerPanelExpand.TabIndex = 9;
             // 
             // AddLessons_Seperator
@@ -225,7 +247,7 @@ namespace TutorX
             // 
             this.AddLessons_BottomPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.AddLessons_BottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.AddLessons_BottomPanel.Location = new System.Drawing.Point(2, 533);
+            this.AddLessons_BottomPanel.Location = new System.Drawing.Point(2, 421);
             this.AddLessons_BottomPanel.Name = "AddLessons_BottomPanel";
             this.AddLessons_BottomPanel.Size = new System.Drawing.Size(327, 2);
             this.AddLessons_BottomPanel.TabIndex = 5;
@@ -245,7 +267,7 @@ namespace TutorX
             this.AddLessons_RightBorder.Dock = System.Windows.Forms.DockStyle.Right;
             this.AddLessons_RightBorder.Location = new System.Drawing.Point(329, 0);
             this.AddLessons_RightBorder.Name = "AddLessons_RightBorder";
-            this.AddLessons_RightBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddLessons_RightBorder.Size = new System.Drawing.Size(2, 423);
             this.AddLessons_RightBorder.TabIndex = 3;
             // 
             // AddLessons_LeftBorder
@@ -254,7 +276,7 @@ namespace TutorX
             this.AddLessons_LeftBorder.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddLessons_LeftBorder.Location = new System.Drawing.Point(0, 0);
             this.AddLessons_LeftBorder.Name = "AddLessons_LeftBorder";
-            this.AddLessons_LeftBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddLessons_LeftBorder.Size = new System.Drawing.Size(2, 423);
             this.AddLessons_LeftBorder.TabIndex = 2;
             // 
             // Margin_LeftCenter
@@ -262,7 +284,7 @@ namespace TutorX
             this.Margin_LeftCenter.Dock = System.Windows.Forms.DockStyle.Left;
             this.Margin_LeftCenter.Location = new System.Drawing.Point(341, 10);
             this.Margin_LeftCenter.Name = "Margin_LeftCenter";
-            this.Margin_LeftCenter.Size = new System.Drawing.Size(10, 535);
+            this.Margin_LeftCenter.Size = new System.Drawing.Size(10, 423);
             this.Margin_LeftCenter.TabIndex = 10;
             // 
             // AddStudent_Panel
@@ -277,7 +299,7 @@ namespace TutorX
             this.AddStudent_Panel.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddStudent_Panel.Location = new System.Drawing.Point(10, 10);
             this.AddStudent_Panel.Name = "AddStudent_Panel";
-            this.AddStudent_Panel.Size = new System.Drawing.Size(331, 535);
+            this.AddStudent_Panel.Size = new System.Drawing.Size(331, 423);
             this.AddStudent_Panel.TabIndex = 9;
             // 
             // AddStudent_ContainerPanel
@@ -286,37 +308,43 @@ namespace TutorX
             this.AddStudent_ContainerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddStudent_ContainerPanel.Location = new System.Drawing.Point(2, 86);
             this.AddStudent_ContainerPanel.Name = "AddStudent_ContainerPanel";
-            this.AddStudent_ContainerPanel.Size = new System.Drawing.Size(327, 447);
+            this.AddStudent_ContainerPanel.Size = new System.Drawing.Size(327, 335);
             this.AddStudent_ContainerPanel.TabIndex = 8;
             // 
             // AddStudent_ContainerPanelExpand
             // 
+            this.AddStudent_ContainerPanelExpand.Controls.Add(this.button2);
+            this.AddStudent_ContainerPanelExpand.Controls.Add(this.button1);
             this.AddStudent_ContainerPanelExpand.Controls.Add(this.textBox3);
             this.AddStudent_ContainerPanelExpand.Controls.Add(this.textBox2);
             this.AddStudent_ContainerPanelExpand.Controls.Add(this.textBox1);
             this.AddStudent_ContainerPanelExpand.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddStudent_ContainerPanelExpand.Location = new System.Drawing.Point(0, 0);
             this.AddStudent_ContainerPanelExpand.Name = "AddStudent_ContainerPanelExpand";
-            this.AddStudent_ContainerPanelExpand.Size = new System.Drawing.Size(327, 447);
+            this.AddStudent_ContainerPanelExpand.Size = new System.Drawing.Size(327, 335);
             this.AddStudent_ContainerPanelExpand.TabIndex = 9;
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(11, 64);
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox2.Location = new System.Drawing.Point(11, 107);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(305, 27);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "  Student Surname:";
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
             this.textBox1.Location = new System.Drawing.Point(11, 16);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(305, 27);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "  Student Name:";
             // 
             // AddStudent_Seperator
             // 
@@ -331,7 +359,7 @@ namespace TutorX
             // 
             this.AddStudent_BottomBorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.AddStudent_BottomBorder.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.AddStudent_BottomBorder.Location = new System.Drawing.Point(2, 533);
+            this.AddStudent_BottomBorder.Location = new System.Drawing.Point(2, 421);
             this.AddStudent_BottomBorder.Name = "AddStudent_BottomBorder";
             this.AddStudent_BottomBorder.Size = new System.Drawing.Size(327, 2);
             this.AddStudent_BottomBorder.TabIndex = 5;
@@ -351,7 +379,7 @@ namespace TutorX
             this.AddStudent_RightBorder.Dock = System.Windows.Forms.DockStyle.Right;
             this.AddStudent_RightBorder.Location = new System.Drawing.Point(329, 0);
             this.AddStudent_RightBorder.Name = "AddStudent_RightBorder";
-            this.AddStudent_RightBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddStudent_RightBorder.Size = new System.Drawing.Size(2, 423);
             this.AddStudent_RightBorder.TabIndex = 3;
             // 
             // AddStudent_LeftBorder
@@ -360,13 +388,13 @@ namespace TutorX
             this.AddStudent_LeftBorder.Dock = System.Windows.Forms.DockStyle.Left;
             this.AddStudent_LeftBorder.Location = new System.Drawing.Point(0, 0);
             this.AddStudent_LeftBorder.Name = "AddStudent_LeftBorder";
-            this.AddStudent_LeftBorder.Size = new System.Drawing.Size(2, 535);
+            this.AddStudent_LeftBorder.Size = new System.Drawing.Size(2, 423);
             this.AddStudent_LeftBorder.TabIndex = 2;
             // 
             // Bottom_Margin
             // 
             this.Bottom_Margin.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Bottom_Margin.Location = new System.Drawing.Point(10, 545);
+            this.Bottom_Margin.Location = new System.Drawing.Point(10, 433);
             this.Bottom_Margin.Name = "Bottom_Margin";
             this.Bottom_Margin.Size = new System.Drawing.Size(1014, 10);
             this.Bottom_Margin.TabIndex = 8;
@@ -384,7 +412,7 @@ namespace TutorX
             this.Left_Margin.Dock = System.Windows.Forms.DockStyle.Left;
             this.Left_Margin.Location = new System.Drawing.Point(0, 0);
             this.Left_Margin.Name = "Left_Margin";
-            this.Left_Margin.Size = new System.Drawing.Size(10, 555);
+            this.Left_Margin.Size = new System.Drawing.Size(10, 443);
             this.Left_Margin.TabIndex = 6;
             // 
             // Right_Margin
@@ -392,7 +420,7 @@ namespace TutorX
             this.Right_Margin.Dock = System.Windows.Forms.DockStyle.Right;
             this.Right_Margin.Location = new System.Drawing.Point(1024, 0);
             this.Right_Margin.Name = "Right_Margin";
-            this.Right_Margin.Size = new System.Drawing.Size(10, 555);
+            this.Right_Margin.Size = new System.Drawing.Size(10, 443);
             this.Right_Margin.TabIndex = 5;
             // 
             // AddTeacher_Label
@@ -426,15 +454,174 @@ namespace TutorX
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(11, 119);
+            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox3.Location = new System.Drawing.Point(11, 198);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(305, 27);
             this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "  Student Birth:";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(11, 288);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button1.Size = new System.Drawing.Size(305, 35);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Add Student";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.Location = new System.Drawing.Point(11, 247);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button2.Size = new System.Drawing.Size(305, 35);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Show Student Database";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.Location = new System.Drawing.Point(11, 245);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button3.Size = new System.Drawing.Size(305, 35);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Show Lesson Database";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.Location = new System.Drawing.Point(11, 286);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button4.Size = new System.Drawing.Size(305, 35);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Add Lesson";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox6.Location = new System.Drawing.Point(11, 14);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(305, 27);
+            this.textBox6.TabIndex = 5;
+            this.textBox6.Text = "  Lesson Name:";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.Location = new System.Drawing.Point(11, 245);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button5.Size = new System.Drawing.Size(305, 35);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "Show Teacher Database";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button6.Location = new System.Drawing.Point(11, 286);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.button6.Size = new System.Drawing.Size(305, 35);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Add Teacher";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox4.Location = new System.Drawing.Point(11, 136);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(305, 27);
+            this.textBox4.TabIndex = 7;
+            this.textBox4.Text = "  Teacher Birth:";
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox5.Location = new System.Drawing.Point(11, 75);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(305, 27);
+            this.textBox5.TabIndex = 6;
+            this.textBox5.Text = "  Teacher Surname:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox7.Location = new System.Drawing.Point(11, 14);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(305, 27);
+            this.textBox7.TabIndex = 5;
+            this.textBox7.Text = "  Teacher Name:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.textBox8.Location = new System.Drawing.Point(11, 197);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(305, 27);
+            this.textBox8.TabIndex = 10;
+            this.textBox8.Text = "  Teacher Field:";
             // 
             // TutorX_MainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1034, 555);
+            this.ClientSize = new System.Drawing.Size(1034, 443);
             this.Controls.Add(this.Mid_Panel);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -446,8 +633,12 @@ namespace TutorX
             this.Mid_Panel.ResumeLayout(false);
             this.AddTeacherPanel.ResumeLayout(false);
             this.AddTeacher_ContainerPanel.ResumeLayout(false);
+            this.AddTeacher_ContainerPanelExpand.ResumeLayout(false);
+            this.AddTeacher_ContainerPanelExpand.PerformLayout();
             this.AddLessons_Panel.ResumeLayout(false);
             this.AddLessons_ContainerPanel.ResumeLayout(false);
+            this.AddLessons_ContainerPanelExpand.ResumeLayout(false);
+            this.AddLessons_ContainerPanelExpand.PerformLayout();
             this.AddStudent_Panel.ResumeLayout(false);
             this.AddStudent_ContainerPanel.ResumeLayout(false);
             this.AddStudent_ContainerPanelExpand.ResumeLayout(false);
@@ -495,5 +686,16 @@ namespace TutorX
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button button2;
     }
 }
