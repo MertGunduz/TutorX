@@ -107,5 +107,69 @@ namespace TutorX
         {
             this.Hide();
         }
+
+        private void StudentName_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (StudentName_TextBox.Text == "  Student Name:")
+            {
+                StudentName_TextBox.Clear();
+            }
+        }
+
+        private void StudentSurname_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (StudentSurname_TextBox.Text == "  Student Surname:")
+            {
+                StudentSurname_TextBox.Clear();
+            }
+        }
+
+        private void StudentBirth_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (StudentBirth_TextBox.Text == "  Student Birth:")
+            {
+                StudentBirth_TextBox.Clear();
+            }
+        }
+
+        private void LessonName_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (LessonName_TextBox.Text == "  Lesson Name:")
+            {
+                LessonName_TextBox.Clear();
+            }
+        }
+
+        private void TeacherName_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (TeacherName_TextBox.Text == "  Teacher Name:")
+            {
+                TeacherName_TextBox.Clear();
+            }
+        }
+
+        private void TeacherSurname_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (TeacherSurname_TextBox.Text == "  Teacher Surname:")
+            {
+                TeacherSurname_TextBox.Clear();
+            }
+        }
+
+        private void TeacherBirth_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (TeacherBirth_TextBox.Text == "  Teacher Birth:")
+            {
+                TeacherBirth_TextBox.Clear();
+            }
+        }
+
+        private void TeacherField_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (TeacherField_TextBox.Text == "  Teacher Field:")
+            {
+                TeacherField_TextBox.Clear();
+            }
+        }
     }
 }
