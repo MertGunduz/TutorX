@@ -63,6 +63,36 @@ namespace TutorX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Add_student {
+            get {
+                object obj = ResourceManager.GetObject("Add_student", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Add_teacher {
+            get {
+                object obj = ResourceManager.GetObject("Add_teacher", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Set_lectures {
+            get {
+                object obj = ResourceManager.GetObject("Set_lectures", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TutorX_HeaderLabel {
             get {
                 object obj = ResourceManager.GetObject("TutorX_HeaderLabel", resourceCulture);

@@ -96,6 +96,9 @@
     <None Include="Resources\TutorX_HeaderLabel.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Set lectures.png" />
+    <None Include="Resources\Add teacher.png" />
+    <None Include="Resources\Add student .png" />
     <None Include="Resources\TutorX_MainLogo.png" />
     <Content Include="TutorX_MainLogo.ico" />
   </ItemGroup>

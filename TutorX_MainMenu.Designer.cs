@@ -52,6 +52,12 @@ namespace TutorX
             this.Bottom_Border = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.Mid_Panel.SuspendLayout();
             this.AddStudent_Panel.SuspendLayout();
             this.SetLectures_Panel.SuspendLayout();
@@ -110,6 +116,8 @@ namespace TutorX
             // 
             // AddStudent_Panel
             // 
+            this.AddStudent_Panel.Controls.Add(this.panel9);
+            this.AddStudent_Panel.Controls.Add(this.label1);
             this.AddStudent_Panel.Controls.Add(this.Bottom_Border);
             this.AddStudent_Panel.Controls.Add(this.Top_Border);
             this.AddStudent_Panel.Controls.Add(this.Right_Border);
@@ -130,6 +138,8 @@ namespace TutorX
             // 
             // SetLectures_Panel
             // 
+            this.SetLectures_Panel.Controls.Add(this.panel10);
+            this.SetLectures_Panel.Controls.Add(this.label2);
             this.SetLectures_Panel.Controls.Add(this.panel7);
             this.SetLectures_Panel.Controls.Add(this.panel5);
             this.SetLectures_Panel.Controls.Add(this.panel3);
@@ -150,6 +160,8 @@ namespace TutorX
             // 
             // AddTeacherPanel
             // 
+            this.AddTeacherPanel.Controls.Add(this.panel11);
+            this.AddTeacherPanel.Controls.Add(this.label3);
             this.AddTeacherPanel.Controls.Add(this.panel8);
             this.AddTeacherPanel.Controls.Add(this.panel6);
             this.AddTeacherPanel.Controls.Add(this.panel4);
@@ -268,6 +280,60 @@ namespace TutorX
             this.panel8.Size = new System.Drawing.Size(327, 2);
             this.panel8.TabIndex = 5;
             // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Image = global::TutorX.Properties.Resources.Add_student;
+            this.label1.Location = new System.Drawing.Point(2, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(327, 82);
+            this.label1.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label2.Image = global::TutorX.Properties.Resources.Set_lectures;
+            this.label2.Location = new System.Drawing.Point(2, 2);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(327, 82);
+            this.label2.TabIndex = 7;
+            // 
+            // label3
+            // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Image = global::TutorX.Properties.Resources.Add_teacher;
+            this.label3.Location = new System.Drawing.Point(2, 2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(327, 82);
+            this.label3.TabIndex = 7;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(2, 84);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(327, 2);
+            this.panel9.TabIndex = 7;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(2, 84);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(327, 2);
+            this.panel10.TabIndex = 8;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(2, 84);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(327, 2);
+            this.panel11.TabIndex = 8;
+            // 
             // TutorX_MainMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -312,5 +378,11 @@ namespace TutorX
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel Bottom_Border;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
     }
 }
