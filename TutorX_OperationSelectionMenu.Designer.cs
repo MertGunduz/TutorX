@@ -454,11 +454,13 @@ namespace TutorX
             this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
             this.button5.Location = new System.Drawing.Point(12, 96);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(301, 147);
             this.button5.TabIndex = 17;
-            this.button5.Text = "button5";
+            this.button5.Text = "Add Datas To The Project";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button6
@@ -467,11 +469,13 @@ namespace TutorX
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
             this.button6.Location = new System.Drawing.Point(12, 96);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(301, 147);
             this.button6.TabIndex = 21;
-            this.button6.Text = "button6";
+            this.button6.Text = "Create Lectures For The Students";
             this.button6.UseVisualStyleBackColor = false;
             // 
             // TutorX_OperationSelectionMenu
