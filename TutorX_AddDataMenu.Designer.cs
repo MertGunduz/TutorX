@@ -174,6 +174,7 @@ namespace TutorX
             this.ShowTeacherDatabase_Button.Text = "Show Teacher Database";
             this.ShowTeacherDatabase_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ShowTeacherDatabase_Button.UseVisualStyleBackColor = false;
+            this.ShowTeacherDatabase_Button.Click += new System.EventHandler(this.ShowTeacherDatabase_Button_Click);
             // 
             // AddTeacher_Button
             // 
@@ -331,6 +332,7 @@ namespace TutorX
             this.ShowLessonDatabase_Button.Text = "Show Lesson Database";
             this.ShowLessonDatabase_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ShowLessonDatabase_Button.UseVisualStyleBackColor = false;
+            this.ShowLessonDatabase_Button.Click += new System.EventHandler(this.ShowLessonDatabase_Button_Click);
             // 
             // AddLesson_Button
             // 
@@ -468,6 +470,7 @@ namespace TutorX
             this.ShowStudentDatabase_Button.Text = "Show Student Database";
             this.ShowStudentDatabase_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ShowStudentDatabase_Button.UseVisualStyleBackColor = false;
+            this.ShowStudentDatabase_Button.Click += new System.EventHandler(this.ShowStudentDatabase_Button_Click);
             // 
             // AddStudent_Button
             // 

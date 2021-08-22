@@ -21,5 +21,20 @@ namespace TutorX
         {
 
         }
+
+        private void ShowStudentDatabase_Button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowLessonDatabase_Button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowTeacherDatabase_Button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
