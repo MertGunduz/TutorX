@@ -24,7 +24,9 @@ namespace TutorX
             {
                 AwakeTimer.Stop();
 
-                // Main Menu
+                TutorX_MainMenu tutorX_MainMenu = new TutorX_MainMenu();
+                this.Close();
+                tutorX_MainMenu.Show();
             }
         }
     }
