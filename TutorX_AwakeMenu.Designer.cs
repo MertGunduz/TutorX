@@ -29,6 +29,7 @@ namespace TutorX
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutorX_AwakeMenu));
             this.Mid_Panel = new System.Windows.Forms.Panel();
             this.Right_Border = new System.Windows.Forms.Panel();
             this.Left_Border = new System.Windows.Forms.Panel();
@@ -47,13 +48,13 @@ namespace TutorX
             this.InBottom_Margin = new System.Windows.Forms.Panel();
             this.InTop_Margin = new System.Windows.Forms.Panel();
             this.PictureBoxContainer_Panel = new System.Windows.Forms.Panel();
-            this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
             this.LabelContainer_Panel = new System.Windows.Forms.Panel();
             this.MainHeader_Label = new System.Windows.Forms.Label();
+            this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
             this.Mid_Panel.SuspendLayout();
             this.PictureBoxContainer_Panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo_PictureBox)).BeginInit();
             this.LabelContainer_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo_PictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Mid_Panel
@@ -229,15 +230,6 @@ namespace TutorX
             this.PictureBoxContainer_Panel.Size = new System.Drawing.Size(192, 150);
             this.PictureBoxContainer_Panel.TabIndex = 16;
             // 
-            // Logo_PictureBox
-            // 
-            this.Logo_PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Logo_PictureBox.Location = new System.Drawing.Point(0, 0);
-            this.Logo_PictureBox.Name = "Logo_PictureBox";
-            this.Logo_PictureBox.Size = new System.Drawing.Size(192, 150);
-            this.Logo_PictureBox.TabIndex = 0;
-            this.Logo_PictureBox.TabStop = false;
-            // 
             // LabelContainer_Panel
             // 
             this.LabelContainer_Panel.Controls.Add(this.MainHeader_Label);
@@ -259,6 +251,17 @@ namespace TutorX
             this.MainHeader_Label.TabIndex = 0;
             this.MainHeader_Label.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // Logo_PictureBox
+            // 
+            this.Logo_PictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Logo_PictureBox.Image = global::TutorX.Properties.Resources.TutorX_MainLogo;
+            this.Logo_PictureBox.Location = new System.Drawing.Point(0, 0);
+            this.Logo_PictureBox.Name = "Logo_PictureBox";
+            this.Logo_PictureBox.Size = new System.Drawing.Size(192, 150);
+            this.Logo_PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.Logo_PictureBox.TabIndex = 0;
+            this.Logo_PictureBox.TabStop = false;
+            // 
             // TutorX_AwakeMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -266,13 +269,14 @@ namespace TutorX
             this.Controls.Add(this.Mid_Panel);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TutorX_AwakeMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TutorX";
             this.Mid_Panel.ResumeLayout(false);
             this.PictureBoxContainer_Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Logo_PictureBox)).EndInit();
             this.LabelContainer_Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Logo_PictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
