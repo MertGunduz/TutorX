@@ -49,11 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TutorX_MainMenu.cs">
+    <Compile Include="TutorX_AddDataMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TutorX_MainMenu.Designer.cs">
-      <DependentUpon>TutorX_MainMenu.cs</DependentUpon>
+    <Compile Include="TutorX_AddDataMenu.Designer.cs">
+      <DependentUpon>TutorX_AddDataMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,8 +76,8 @@
     <EmbeddedResource Include="TutorX_AwakeMenu.resx">
       <DependentUpon>TutorX_AwakeMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TutorX_MainMenu.resx">
-      <DependentUpon>TutorX_MainMenu.cs</DependentUpon>
+    <EmbeddedResource Include="TutorX_AddDataMenu.resx">
+      <DependentUpon>TutorX_AddDataMenu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +96,8 @@
     <None Include="Resources\TutorX_HeaderLabel.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\TutorX_ShowIcon.png" />
+    <None Include="Resources\TutorX_AddIcon.png" />
     <None Include="Resources\Add lessons.png" />
     <None Include="Resources\Set lectures.png" />
     <None Include="Resources\Add teacher.png" />

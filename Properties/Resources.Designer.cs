@@ -103,6 +103,16 @@ namespace TutorX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TutorX_AddIcon {
+            get {
+                object obj = ResourceManager.GetObject("TutorX_AddIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TutorX_HeaderLabel {
             get {
                 object obj = ResourceManager.GetObject("TutorX_HeaderLabel", resourceCulture);
@@ -116,6 +126,16 @@ namespace TutorX.Properties {
         internal static System.Drawing.Bitmap TutorX_MainLogo {
             get {
                 object obj = ResourceManager.GetObject("TutorX_MainLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TutorX_ShowIcon {
+            get {
+                object obj = ResourceManager.GetObject("TutorX_ShowIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
