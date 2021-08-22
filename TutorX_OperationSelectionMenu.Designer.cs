@@ -466,6 +466,7 @@ namespace TutorX
             this.AddDatas_Button.TabIndex = 17;
             this.AddDatas_Button.Text = "Add Datas To The Project";
             this.AddDatas_Button.UseVisualStyleBackColor = false;
+            this.AddDatas_Button.Click += new System.EventHandler(this.AddDatas_Button_Click);
             // 
             // CreateLectures_Button
             // 

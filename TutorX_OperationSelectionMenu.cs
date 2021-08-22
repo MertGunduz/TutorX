@@ -16,5 +16,12 @@ namespace TutorX
         {
             InitializeComponent();
         }
+
+        private void AddDatas_Button_Click(object sender, EventArgs e)
+        {
+            TutorX_AddDataMenu tutorX_AddDataMenu = new TutorX_AddDataMenu();
+            this.Hide();
+            tutorX_AddDataMenu.Show();
+        }
     }
 }
