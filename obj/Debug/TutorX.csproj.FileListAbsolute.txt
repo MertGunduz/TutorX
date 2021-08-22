@@ -8,3 +8,4 @@ C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.csproj.CoreCompileInputs.cache
 C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.exe
 C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.pdb
 C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.TutorX_AwakeMenu.resources
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.TutorX_MainMenu.resources

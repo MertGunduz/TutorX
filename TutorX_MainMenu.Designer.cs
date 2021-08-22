@@ -79,9 +79,9 @@ namespace TutorX
             // Right_Margin
             // 
             this.Right_Margin.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Right_Margin.Location = new System.Drawing.Point(1014, 0);
+            this.Right_Margin.Location = new System.Drawing.Point(1024, 0);
             this.Right_Margin.Name = "Right_Margin";
-            this.Right_Margin.Size = new System.Drawing.Size(20, 555);
+            this.Right_Margin.Size = new System.Drawing.Size(10, 555);
             this.Right_Margin.TabIndex = 5;
             // 
             // Left_Margin
@@ -89,23 +89,23 @@ namespace TutorX
             this.Left_Margin.Dock = System.Windows.Forms.DockStyle.Left;
             this.Left_Margin.Location = new System.Drawing.Point(0, 0);
             this.Left_Margin.Name = "Left_Margin";
-            this.Left_Margin.Size = new System.Drawing.Size(20, 555);
+            this.Left_Margin.Size = new System.Drawing.Size(10, 555);
             this.Left_Margin.TabIndex = 6;
             // 
             // Top_Margin
             // 
             this.Top_Margin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Top_Margin.Location = new System.Drawing.Point(20, 0);
+            this.Top_Margin.Location = new System.Drawing.Point(10, 0);
             this.Top_Margin.Name = "Top_Margin";
-            this.Top_Margin.Size = new System.Drawing.Size(994, 20);
+            this.Top_Margin.Size = new System.Drawing.Size(1014, 10);
             this.Top_Margin.TabIndex = 7;
             // 
             // Bottom_Margin
             // 
             this.Bottom_Margin.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Bottom_Margin.Location = new System.Drawing.Point(20, 535);
+            this.Bottom_Margin.Location = new System.Drawing.Point(10, 545);
             this.Bottom_Margin.Name = "Bottom_Margin";
-            this.Bottom_Margin.Size = new System.Drawing.Size(994, 20);
+            this.Bottom_Margin.Size = new System.Drawing.Size(1014, 10);
             this.Bottom_Margin.TabIndex = 8;
             // 
             // AddStudent_Panel
@@ -115,17 +115,17 @@ namespace TutorX
             this.AddStudent_Panel.Controls.Add(this.Right_Border);
             this.AddStudent_Panel.Controls.Add(this.Left_Border);
             this.AddStudent_Panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.AddStudent_Panel.Location = new System.Drawing.Point(20, 20);
+            this.AddStudent_Panel.Location = new System.Drawing.Point(10, 10);
             this.AddStudent_Panel.Name = "AddStudent_Panel";
-            this.AddStudent_Panel.Size = new System.Drawing.Size(324, 515);
+            this.AddStudent_Panel.Size = new System.Drawing.Size(331, 535);
             this.AddStudent_Panel.TabIndex = 9;
             // 
             // Margin_LeftCenter
             // 
             this.Margin_LeftCenter.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Margin_LeftCenter.Location = new System.Drawing.Point(344, 20);
+            this.Margin_LeftCenter.Location = new System.Drawing.Point(341, 10);
             this.Margin_LeftCenter.Name = "Margin_LeftCenter";
-            this.Margin_LeftCenter.Size = new System.Drawing.Size(11, 515);
+            this.Margin_LeftCenter.Size = new System.Drawing.Size(10, 535);
             this.Margin_LeftCenter.TabIndex = 10;
             // 
             // SetLectures_Panel
@@ -135,17 +135,17 @@ namespace TutorX
             this.SetLectures_Panel.Controls.Add(this.panel3);
             this.SetLectures_Panel.Controls.Add(this.panel1);
             this.SetLectures_Panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.SetLectures_Panel.Location = new System.Drawing.Point(355, 20);
+            this.SetLectures_Panel.Location = new System.Drawing.Point(351, 10);
             this.SetLectures_Panel.Name = "SetLectures_Panel";
-            this.SetLectures_Panel.Size = new System.Drawing.Size(324, 515);
+            this.SetLectures_Panel.Size = new System.Drawing.Size(331, 535);
             this.SetLectures_Panel.TabIndex = 11;
             // 
             // Margin_RightCenter
             // 
             this.Margin_RightCenter.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Margin_RightCenter.Location = new System.Drawing.Point(679, 20);
+            this.Margin_RightCenter.Location = new System.Drawing.Point(682, 10);
             this.Margin_RightCenter.Name = "Margin_RightCenter";
-            this.Margin_RightCenter.Size = new System.Drawing.Size(11, 515);
+            this.Margin_RightCenter.Size = new System.Drawing.Size(10, 535);
             this.Margin_RightCenter.TabIndex = 12;
             // 
             // AddTeacherPanel
@@ -155,9 +155,9 @@ namespace TutorX
             this.AddTeacherPanel.Controls.Add(this.panel4);
             this.AddTeacherPanel.Controls.Add(this.panel2);
             this.AddTeacherPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.AddTeacherPanel.Location = new System.Drawing.Point(690, 20);
+            this.AddTeacherPanel.Location = new System.Drawing.Point(692, 10);
             this.AddTeacherPanel.Name = "AddTeacherPanel";
-            this.AddTeacherPanel.Size = new System.Drawing.Size(324, 515);
+            this.AddTeacherPanel.Size = new System.Drawing.Size(331, 535);
             this.AddTeacherPanel.TabIndex = 13;
             // 
             // Left_Border
@@ -166,7 +166,7 @@ namespace TutorX
             this.Left_Border.Dock = System.Windows.Forms.DockStyle.Left;
             this.Left_Border.Location = new System.Drawing.Point(0, 0);
             this.Left_Border.Name = "Left_Border";
-            this.Left_Border.Size = new System.Drawing.Size(2, 515);
+            this.Left_Border.Size = new System.Drawing.Size(2, 535);
             this.Left_Border.TabIndex = 2;
             // 
             // panel1
@@ -175,7 +175,7 @@ namespace TutorX
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2, 515);
+            this.panel1.Size = new System.Drawing.Size(2, 535);
             this.panel1.TabIndex = 2;
             // 
             // panel2
@@ -184,34 +184,34 @@ namespace TutorX
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2, 515);
+            this.panel2.Size = new System.Drawing.Size(2, 535);
             this.panel2.TabIndex = 2;
             // 
             // Right_Border
             // 
             this.Right_Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.Right_Border.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Right_Border.Location = new System.Drawing.Point(322, 0);
+            this.Right_Border.Location = new System.Drawing.Point(329, 0);
             this.Right_Border.Name = "Right_Border";
-            this.Right_Border.Size = new System.Drawing.Size(2, 515);
+            this.Right_Border.Size = new System.Drawing.Size(2, 535);
             this.Right_Border.TabIndex = 3;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(322, 0);
+            this.panel3.Location = new System.Drawing.Point(329, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(2, 515);
+            this.panel3.Size = new System.Drawing.Size(2, 535);
             this.panel3.TabIndex = 3;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(322, 0);
+            this.panel4.Location = new System.Drawing.Point(329, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(2, 515);
+            this.panel4.Size = new System.Drawing.Size(2, 535);
             this.panel4.TabIndex = 3;
             // 
             // Top_Border
@@ -220,7 +220,7 @@ namespace TutorX
             this.Top_Border.Dock = System.Windows.Forms.DockStyle.Top;
             this.Top_Border.Location = new System.Drawing.Point(2, 0);
             this.Top_Border.Name = "Top_Border";
-            this.Top_Border.Size = new System.Drawing.Size(320, 2);
+            this.Top_Border.Size = new System.Drawing.Size(327, 2);
             this.Top_Border.TabIndex = 4;
             // 
             // panel5
@@ -229,7 +229,7 @@ namespace TutorX
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(2, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(320, 2);
+            this.panel5.Size = new System.Drawing.Size(327, 2);
             this.panel5.TabIndex = 4;
             // 
             // panel6
@@ -238,34 +238,34 @@ namespace TutorX
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(2, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(320, 2);
+            this.panel6.Size = new System.Drawing.Size(327, 2);
             this.panel6.TabIndex = 4;
             // 
             // Bottom_Border
             // 
             this.Bottom_Border.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.Bottom_Border.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Bottom_Border.Location = new System.Drawing.Point(2, 513);
+            this.Bottom_Border.Location = new System.Drawing.Point(2, 533);
             this.Bottom_Border.Name = "Bottom_Border";
-            this.Bottom_Border.Size = new System.Drawing.Size(320, 2);
+            this.Bottom_Border.Size = new System.Drawing.Size(327, 2);
             this.Bottom_Border.TabIndex = 5;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel7.Location = new System.Drawing.Point(2, 513);
+            this.panel7.Location = new System.Drawing.Point(2, 533);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(320, 2);
+            this.panel7.Size = new System.Drawing.Size(327, 2);
             this.panel7.TabIndex = 5;
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
             this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(2, 513);
+            this.panel8.Location = new System.Drawing.Point(2, 533);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(320, 2);
+            this.panel8.Size = new System.Drawing.Size(327, 2);
             this.panel8.TabIndex = 5;
             // 
             // TutorX_MainMenu

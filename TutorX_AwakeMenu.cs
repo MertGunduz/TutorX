@@ -16,16 +16,19 @@ namespace TutorX
 
         private void AwakeTimer_Tick(object sender, EventArgs e)
         {
+            // Increases Estimatedtime By 1 Every Tick
             if (estimatedTime != 100)
             {
                 estimatedTime++;
             }
             else
             {
+                // Stops Timer
                 AwakeTimer.Stop();
 
+                // Form Object Created & Main Menu Showed
                 TutorX_MainMenu tutorX_MainMenu = new TutorX_MainMenu();
-                this.Close();
+                this.Hide();
                 tutorX_MainMenu.Show();
             }
         }
