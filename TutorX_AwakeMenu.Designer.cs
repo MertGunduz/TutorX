@@ -29,6 +29,7 @@ namespace TutorX
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutorX_AwakeMenu));
             this.Mid_Panel = new System.Windows.Forms.Panel();
             this.Right_Border = new System.Windows.Forms.Panel();
@@ -51,6 +52,7 @@ namespace TutorX
             this.LabelContainer_Panel = new System.Windows.Forms.Panel();
             this.MainHeader_Label = new System.Windows.Forms.Label();
             this.Logo_PictureBox = new System.Windows.Forms.PictureBox();
+            this.AwakeTimer = new System.Windows.Forms.Timer(this.components);
             this.Mid_Panel.SuspendLayout();
             this.PictureBoxContainer_Panel.SuspendLayout();
             this.LabelContainer_Panel.SuspendLayout();
@@ -262,6 +264,12 @@ namespace TutorX
             this.Logo_PictureBox.TabIndex = 0;
             this.Logo_PictureBox.TabStop = false;
             // 
+            // AwakeTimer
+            // 
+            this.AwakeTimer.Enabled = true;
+            this.AwakeTimer.Interval = 10;
+            this.AwakeTimer.Tick += new System.EventHandler(this.AwakeTimer_Tick);
+            // 
             // TutorX_AwakeMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -304,5 +312,6 @@ namespace TutorX
         private System.Windows.Forms.Panel InBottom_Margin;
         private System.Windows.Forms.Panel InLeft_Margin;
         private System.Windows.Forms.Panel InRight_Margin;
+        private System.Windows.Forms.Timer AwakeTimer;
     }
 }
