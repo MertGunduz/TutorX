@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TutorX
 {
-    public partial class TutorX_MainMenu : Form
+    public partial class TutorX_AddDataMenu : Form
     {
-        public TutorX_MainMenu()
+        public TutorX_AddDataMenu()
         {
             InitializeComponent();
         }

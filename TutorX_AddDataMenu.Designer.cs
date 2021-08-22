@@ -1,7 +1,7 @@
 ﻿
 namespace TutorX
 {
-    partial class TutorX_MainMenu
+    partial class TutorX_AddDataMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace TutorX
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutorX_MainMenu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutorX_AddDataMenu));
             this.Mid_Panel = new System.Windows.Forms.Panel();
             this.AddTeacherPanel = new System.Windows.Forms.Panel();
             this.AddTeacher_ContainerPanel = new System.Windows.Forms.Panel();

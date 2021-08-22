@@ -27,9 +27,9 @@ namespace TutorX
                 AwakeTimer.Stop();
 
                 // Form Object Created & Main Menu Showed
-                TutorX_MainMenu tutorX_MainMenu = new TutorX_MainMenu();
+                TutorX_AddDataMenu tutorX_AddDataMenu = new TutorX_AddDataMenu();
                 this.Hide();
-                tutorX_MainMenu.Show();
+                tutorX_AddDataMenu.Show();
             }
         }
     }
