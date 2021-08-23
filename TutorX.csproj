@@ -147,6 +147,7 @@
     <None Include="Resources\lessons database.png" />
     <None Include="Resources\TutorX_MinimizeIcon.png" />
     <None Include="Resources\TutorX_ExitIcon.png" />
+    <None Include="Resources\TutorX_ReturnIcon.png" />
     <Content Include="TutorX.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

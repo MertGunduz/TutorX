@@ -203,6 +203,16 @@ namespace TutorX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TutorX_ReturnIcon {
+            get {
+                object obj = ResourceManager.GetObject("TutorX_ReturnIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TutorX_ShowIcon {
             get {
                 object obj = ResourceManager.GetObject("TutorX_ShowIcon", resourceCulture);

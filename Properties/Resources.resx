@@ -160,6 +160,9 @@
   <data name="TutorX_MinimizeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TutorX_MinimizeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TutorX_ReturnIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TutorX_ReturnIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TutorX_ShowIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TutorX_ShowIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
