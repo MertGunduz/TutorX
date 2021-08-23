@@ -31,15 +31,15 @@ namespace TutorX
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TutorX_SetLecturesMenu));
             this.Mid_Panel = new System.Windows.Forms.Panel();
+            this.AddLecture_Button = new System.Windows.Forms.Button();
             this.Lecture_DataGridView = new System.Windows.Forms.DataGridView();
             this.Bottom_Margin = new System.Windows.Forms.Panel();
             this.Top_Margin = new System.Windows.Forms.Panel();
-            this.Left_Margin = new System.Windows.Forms.Panel();
-            this.Right_Margin = new System.Windows.Forms.Panel();
-            this.AddLecture_Button = new System.Windows.Forms.Button();
+            this.Return_Button = new System.Windows.Forms.Button();
             this.Minimize_Button = new System.Windows.Forms.Button();
             this.Exit_Button = new System.Windows.Forms.Button();
-            this.Return_Button = new System.Windows.Forms.Button();
+            this.Left_Margin = new System.Windows.Forms.Panel();
+            this.Right_Margin = new System.Windows.Forms.Panel();
             this.Mid_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Lecture_DataGridView)).BeginInit();
             this.Top_Margin.SuspendLayout();
@@ -59,6 +59,26 @@ namespace TutorX
             this.Mid_Panel.Name = "Mid_Panel";
             this.Mid_Panel.Size = new System.Drawing.Size(1024, 535);
             this.Mid_Panel.TabIndex = 0;
+            // 
+            // AddLecture_Button
+            // 
+            this.AddLecture_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.AddLecture_Button.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.AddLecture_Button.FlatAppearance.BorderSize = 0;
+            this.AddLecture_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddLecture_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.AddLecture_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.AddLecture_Button.Image = ((System.Drawing.Image)(resources.GetObject("AddLecture_Button.Image")));
+            this.AddLecture_Button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AddLecture_Button.Location = new System.Drawing.Point(10, 490);
+            this.AddLecture_Button.Name = "AddLecture_Button";
+            this.AddLecture_Button.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.AddLecture_Button.Size = new System.Drawing.Size(1004, 35);
+            this.AddLecture_Button.TabIndex = 18;
+            this.AddLecture_Button.Text = "Add Lecture To The System";
+            this.AddLecture_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AddLecture_Button.UseVisualStyleBackColor = false;
+            this.AddLecture_Button.Click += new System.EventHandler(this.AddLecture_Button_Click);
             // 
             // Lecture_DataGridView
             // 
@@ -89,40 +109,21 @@ namespace TutorX
             this.Top_Margin.Size = new System.Drawing.Size(1004, 47);
             this.Top_Margin.TabIndex = 11;
             // 
-            // Left_Margin
+            // Return_Button
             // 
-            this.Left_Margin.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Left_Margin.Location = new System.Drawing.Point(0, 0);
-            this.Left_Margin.Name = "Left_Margin";
-            this.Left_Margin.Size = new System.Drawing.Size(10, 535);
-            this.Left_Margin.TabIndex = 10;
-            // 
-            // Right_Margin
-            // 
-            this.Right_Margin.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Right_Margin.Location = new System.Drawing.Point(1014, 0);
-            this.Right_Margin.Name = "Right_Margin";
-            this.Right_Margin.Size = new System.Drawing.Size(10, 535);
-            this.Right_Margin.TabIndex = 9;
-            // 
-            // AddLecture_Button
-            // 
-            this.AddLecture_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.AddLecture_Button.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.AddLecture_Button.FlatAppearance.BorderSize = 0;
-            this.AddLecture_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddLecture_Button.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.AddLecture_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
-            this.AddLecture_Button.Image = ((System.Drawing.Image)(resources.GetObject("AddLecture_Button.Image")));
-            this.AddLecture_Button.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.AddLecture_Button.Location = new System.Drawing.Point(10, 490);
-            this.AddLecture_Button.Name = "AddLecture_Button";
-            this.AddLecture_Button.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.AddLecture_Button.Size = new System.Drawing.Size(1004, 35);
-            this.AddLecture_Button.TabIndex = 18;
-            this.AddLecture_Button.Text = "Add Lecture To The System";
-            this.AddLecture_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.AddLecture_Button.UseVisualStyleBackColor = false;
+            this.Return_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Return_Button.FlatAppearance.BorderSize = 0;
+            this.Return_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Return_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Return_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Return_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Return_Button.Image = global::TutorX.Properties.Resources.TutorX_ReturnIcon;
+            this.Return_Button.Location = new System.Drawing.Point(6, 12);
+            this.Return_Button.Name = "Return_Button";
+            this.Return_Button.Size = new System.Drawing.Size(23, 23);
+            this.Return_Button.TabIndex = 2;
+            this.Return_Button.UseVisualStyleBackColor = true;
+            this.Return_Button.Click += new System.EventHandler(this.Return_Button_Click);
             // 
             // Minimize_Button
             // 
@@ -156,21 +157,21 @@ namespace TutorX
             this.Exit_Button.UseVisualStyleBackColor = true;
             this.Exit_Button.Click += new System.EventHandler(this.Exit_Button_Click);
             // 
-            // Return_Button
+            // Left_Margin
             // 
-            this.Return_Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Return_Button.FlatAppearance.BorderSize = 0;
-            this.Return_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.Return_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.Return_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
-            this.Return_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Return_Button.Image = global::TutorX.Properties.Resources.TutorX_ReturnIcon;
-            this.Return_Button.Location = new System.Drawing.Point(6, 12);
-            this.Return_Button.Name = "Return_Button";
-            this.Return_Button.Size = new System.Drawing.Size(23, 23);
-            this.Return_Button.TabIndex = 2;
-            this.Return_Button.UseVisualStyleBackColor = true;
-            this.Return_Button.Click += new System.EventHandler(this.Return_Button_Click);
+            this.Left_Margin.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Left_Margin.Location = new System.Drawing.Point(0, 0);
+            this.Left_Margin.Name = "Left_Margin";
+            this.Left_Margin.Size = new System.Drawing.Size(10, 535);
+            this.Left_Margin.TabIndex = 10;
+            // 
+            // Right_Margin
+            // 
+            this.Right_Margin.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Right_Margin.Location = new System.Drawing.Point(1014, 0);
+            this.Right_Margin.Name = "Right_Margin";
+            this.Right_Margin.Size = new System.Drawing.Size(10, 535);
+            this.Right_Margin.TabIndex = 9;
             // 
             // TutorX_SetLecturesMenu
             // 

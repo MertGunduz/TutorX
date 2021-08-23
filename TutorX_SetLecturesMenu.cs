@@ -51,5 +51,11 @@ namespace TutorX
             this.Hide();
             tutorX_OperationSelectionMenu.Show();
         }
+
+        private void AddLecture_Button_Click(object sender, EventArgs e)
+        {
+            TutorX_AddLectureMenu tutorX_AddLectureMenu = new TutorX_AddLectureMenu();
+            tutorX_AddLectureMenu.Show();
+        }
     }
 }

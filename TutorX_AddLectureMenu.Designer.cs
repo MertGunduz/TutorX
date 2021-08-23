@@ -45,7 +45,7 @@ namespace TutorX
             this.Seperator_Panel = new System.Windows.Forms.Panel();
             this.Student_ComboBox = new System.Windows.Forms.ComboBox();
             this.Lesson_ComboBox = new System.Windows.Forms.ComboBox();
-            this.x = new System.Windows.Forms.ComboBox();
+            this.Teacher_ComboBox = new System.Windows.Forms.ComboBox();
             this.Date_TextBox = new System.Windows.Forms.TextBox();
             this.AddStudent_Button = new System.Windows.Forms.Button();
             this.Mid_Panel.SuspendLayout();
@@ -57,7 +57,7 @@ namespace TutorX
             this.Mid_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
             this.Mid_Panel.Controls.Add(this.AddStudent_Button);
             this.Mid_Panel.Controls.Add(this.Date_TextBox);
-            this.Mid_Panel.Controls.Add(this.x);
+            this.Mid_Panel.Controls.Add(this.Teacher_ComboBox);
             this.Mid_Panel.Controls.Add(this.Lesson_ComboBox);
             this.Mid_Panel.Controls.Add(this.Student_ComboBox);
             this.Mid_Panel.Controls.Add(this.Seperator_Panel);
@@ -220,17 +220,17 @@ namespace TutorX
             this.Lesson_ComboBox.TabIndex = 24;
             this.Lesson_ComboBox.Text = "  Lesson:";
             // 
-            // x
+            // Teacher_ComboBox
             // 
-            this.x.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
-            this.x.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
-            this.x.FormattingEnabled = true;
-            this.x.Location = new System.Drawing.Point(22, 282);
-            this.x.Name = "x";
-            this.x.Size = new System.Drawing.Size(302, 29);
-            this.x.TabIndex = 25;
-            this.x.Text = "  Teacher:";
+            this.Teacher_ComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(61)))), ((int)(((byte)(159)))));
+            this.Teacher_ComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Teacher_ComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(98)))), ((int)(((byte)(213)))));
+            this.Teacher_ComboBox.FormattingEnabled = true;
+            this.Teacher_ComboBox.Location = new System.Drawing.Point(22, 282);
+            this.Teacher_ComboBox.Name = "Teacher_ComboBox";
+            this.Teacher_ComboBox.Size = new System.Drawing.Size(302, 29);
+            this.Teacher_ComboBox.TabIndex = 25;
+            this.Teacher_ComboBox.Text = "  Teacher:";
             // 
             // Date_TextBox
             // 
@@ -261,6 +261,7 @@ namespace TutorX
             this.AddStudent_Button.Text = "Add Student";
             this.AddStudent_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.AddStudent_Button.UseVisualStyleBackColor = false;
+            this.AddStudent_Button.Click += new System.EventHandler(this.AddStudent_Button_Click);
             // 
             // TutorX_AddLectureMenu
             // 
@@ -298,7 +299,7 @@ namespace TutorX
         private System.Windows.Forms.Label AddLessons_Label;
         private System.Windows.Forms.ComboBox Student_ComboBox;
         private System.Windows.Forms.TextBox Date_TextBox;
-        private System.Windows.Forms.ComboBox x;
+        private System.Windows.Forms.ComboBox Teacher_ComboBox;
         private System.Windows.Forms.ComboBox Lesson_ComboBox;
         private System.Windows.Forms.Button AddStudent_Button;
     }
