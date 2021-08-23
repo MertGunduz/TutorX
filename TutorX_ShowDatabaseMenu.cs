@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.OleDb;
 using System.Windows.Forms;
 using TutorX.Properties;
@@ -40,7 +34,7 @@ namespace TutorX
 
                 oleDbConnection.Open();
                 OleDbCommand readStudentDatabaseCommand = new OleDbCommand("Select * From Students_Table", oleDbConnection);
-               
+
                 OleDbDataAdapter oleDbDataAdapter = new OleDbDataAdapter();
                 oleDbDataAdapter.SelectCommand = readStudentDatabaseCommand;
 
