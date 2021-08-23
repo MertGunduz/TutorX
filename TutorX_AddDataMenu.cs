@@ -190,7 +190,7 @@ namespace TutorX
         {
             TutorX_OperationSelectionMenu tutorX_OperationSelectionMenu = new TutorX_OperationSelectionMenu();
             this.Hide();
-            tutorX_OperationSelectionMenu.Show();
+            tutorX_OperationSelectionMenu.Show()
         }
     }
 }
