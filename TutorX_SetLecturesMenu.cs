@@ -44,5 +44,12 @@ namespace TutorX
         {
             this.Hide();
         }
+
+        private void Return_Button_Click(object sender, EventArgs e)
+        {
+            TutorX_OperationSelectionMenu tutorX_OperationSelectionMenu = new TutorX_OperationSelectionMenu();
+            this.Hide();
+            tutorX_OperationSelectionMenu.Show();
+        }
     }
 }

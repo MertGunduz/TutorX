@@ -80,6 +80,7 @@ namespace TutorX
             this.Exit_Button = new System.Windows.Forms.Button();
             this.Left_Margin = new System.Windows.Forms.Panel();
             this.Right_Margin = new System.Windows.Forms.Panel();
+            this.Return_Button = new System.Windows.Forms.Button();
             this.Mid_Panel.SuspendLayout();
             this.AddTeacherPanel.SuspendLayout();
             this.AddTeacher_ContainerPanel.SuspendLayout();
@@ -619,6 +620,7 @@ namespace TutorX
             // 
             // Top_Margin
             // 
+            this.Top_Margin.Controls.Add(this.Return_Button);
             this.Top_Margin.Controls.Add(this.Minimize_Button);
             this.Top_Margin.Controls.Add(this.Exit_Button);
             this.Top_Margin.Dock = System.Windows.Forms.DockStyle.Top;
@@ -674,6 +676,22 @@ namespace TutorX
             this.Right_Margin.Name = "Right_Margin";
             this.Right_Margin.Size = new System.Drawing.Size(10, 482);
             this.Right_Margin.TabIndex = 5;
+            // 
+            // Return_Button
+            // 
+            this.Return_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Return_Button.FlatAppearance.BorderSize = 0;
+            this.Return_Button.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Return_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Return_Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(27)))), ((int)(((byte)(62)))));
+            this.Return_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Return_Button.Image = global::TutorX.Properties.Resources.TutorX_ReturnIcon;
+            this.Return_Button.Location = new System.Drawing.Point(6, 12);
+            this.Return_Button.Name = "Return_Button";
+            this.Return_Button.Size = new System.Drawing.Size(23, 23);
+            this.Return_Button.TabIndex = 3;
+            this.Return_Button.UseVisualStyleBackColor = true;
+            this.Return_Button.Click += new System.EventHandler(this.Return_Button_Click);
             // 
             // TutorX_AddDataMenu
             // 
@@ -756,5 +774,6 @@ namespace TutorX
         private System.Windows.Forms.Button ShowStudentDatabase_Button;
         private System.Windows.Forms.Button Minimize_Button;
         private System.Windows.Forms.Button Exit_Button;
+        private System.Windows.Forms.Button Return_Button;
     }
 }
