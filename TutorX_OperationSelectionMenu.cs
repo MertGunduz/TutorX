@@ -23,5 +23,12 @@ namespace TutorX
             this.Hide();
             tutorX_AddDataMenu.Show();
         }
+
+        private void CreateLectures_Button_Click(object sender, EventArgs e)
+        {
+            TutorX_SetLecturesMenu tutorX_SetLecturesMenu = new TutorX_SetLecturesMenu();
+            this.Hide();
+            tutorX_SetLecturesMenu.Show();
+        }
     }
 }

@@ -12,3 +12,4 @@ C:\Users\u\source\repos\TutorX\bin\Debug\TutorX.accdb
 C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.TutorX_AddDataMenu.resources
 C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.TutorX_ShowDatabaseMenu.resources
 C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.TutorX_OperationSelectionMenu.resources
+C:\Users\u\source\repos\TutorX\obj\Debug\TutorX.TutorX_SetLecturesMenu.resources
